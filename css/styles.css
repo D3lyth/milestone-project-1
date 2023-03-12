@@ -1,7 +1,3 @@
-.bottomhalf {
-    background-image: url("https://media.istockphoto.com/id/1133497899/photo/old-dirty-paper-texture.jpg?b=1&s=612x612&w=0&k=20&c=Guk7ktzzEKuIBLKuTotBtawnQ3GY6GmqBAhhRB7BZJ8=");
-}
-
 /* Nav Bar Styling */
 /* LOGO AND NAME */
 .navbar, .bg-body-tertiary {
@@ -27,6 +23,8 @@ padding: 0;
     background-color: #333;
 }
 
+/* Anchor Links */
+
 #menu {
     padding-top: 1rem;
 }
@@ -46,7 +44,7 @@ a {
     display: inline;
 }
 
-/* Hero Image Section */
+/* Hero Image Section - Hogwarts Castle */
 
   .welcome {
     position: relative;
@@ -63,6 +61,10 @@ a {
   }
 
   /* Dumbledore's Address Section */
+
+  .bottomhalf {
+    background-image: url("https://media.istockphoto.com/id/1133497899/photo/old-dirty-paper-texture.jpg?b=1&s=612x612&w=0&k=20&c=Guk7ktzzEKuIBLKuTotBtawnQ3GY6GmqBAhhRB7BZJ8=");
+}
 
   .headmasterwelcome {
     display: flex;
@@ -110,7 +112,7 @@ a {
     border-radius: 5%;
   }
 
-  /* Flip Cards */
+  /* Flip Cards Section - Houses Crests and Information */
 
   .hogwartshouses {
     display: flex;
@@ -215,37 +217,11 @@ i:hover {
   transition: all 0.2s ease-in;
 }
 
+/*Responsiveness */
 
-@media (max-width: 786px) {
+ /* Nav Bar Responsiveness */
 
-  .hogwartshouses {
-    flex-direction: column;
-  }
-
-}
-
-
-
-
-  
-  @media screen and (max-width: 768px) {
-    #headmaster {
-      flex-direction: column;
-    }
-    .headmasterwelcomespeech {
-      flex: none;
-    }
-    .headmasterwelcomepic {
-      margin: 0 auto;
-    }
-  }
-  
-
-  /* Media Queries for responsiveness */
-
-  /* CSS styles for mobile view */
-
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
     .navbar, .bg-body-tertiary {
       padding: 0;
     }
@@ -284,27 +260,41 @@ i:hover {
       text-decoration: none;
       font-size: 20px;
     }
-  
-    /* Hero Image Section */
-  
-    .welcome {
-      position: relative;
-      margin: 0;
+ }
+
+/* Headmaster's Address Section */
+
+@media screen and (max-width: 768px) {
+    #headmaster {
+      flex-direction: column;
     }
-  
-    .hogwarts-castle {
-      margin: 0;
-      max-width: 100%;
-      height: auto;
+    .headmasterwelcomespeech {
+      flex: none;
+    }
+    .headmasterwelcomepic {
+      margin: 0 auto;
     }
   }
 
+/* Flip Card Responsiveness */
+
+@media (max-width: 786px) {
+
+  .hogwartshouses {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
   
 
+ 
+  
 
   /* Burger menu for mobile */
   
-  .navbar {
+ /* .navbar {
     background-color: #333;
     height: 80px;
     display: flex;
@@ -356,7 +346,3 @@ i:hover {
     font-size: 18px;
     font-weight: bold;
   }
-  
-
-  /*Flip cards Responsiveness */
-
