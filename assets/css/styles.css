@@ -72,7 +72,7 @@ a {
   /* Dumbledore's Address Section */
 
   .bottomhalf {
-    background-image: url('/assets/images/parchment.jpeg')
+    background-image: url('/assets/images/parchment.jpeg');
   }
 
   .headmasterwelcome {
@@ -284,20 +284,28 @@ i:hover {
     #headmaster {
       flex-direction: column;
     }
+
+    .headmasterwelcome {
+      flex-direction: column;
+    align-items: center;
+    }
+
     .headmasterwelcomespeech {
-      flex: none;
+      flex: 2;
       font-size: 16px;
       line-height: 1.5;
       overflow-y: scroll;
+      width: 100vw;
     }
     }
-    
+
     .headmasterwelcomepic {
       margin: 0 auto;
+      width: 100vw;
     }
 
     .welcomespeech {
-      overflow: auto;
+      
       max-width: 100%;
     }
     
