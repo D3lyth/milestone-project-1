@@ -163,6 +163,7 @@ a {
     border: maroon solid 4px;
     background-color: maroon;
     color: gold;
+    
   }
 
   #flip-card-ravenclaw {
@@ -227,11 +228,20 @@ i:hover {
 
  /* Nav Bar Responsiveness */
 
+ @media (min-width: 768px) { /* Show on screens larger than or equal to 768px */
+  .navbar-brand .fulltitle {
+    display: inline-block;
+  }
+}
+
  @media (max-width: 767px) {
     .navbar, .bg-body-tertiary {
       padding: 0;
     }
   
+    .navbar-brand .fulltitle { /* Hide on screens smaller than 768px */
+      display: none;
+    }
     .navbar-brand {
       float: none;
       color: rgb(181, 146, 84);
@@ -276,11 +286,22 @@ i:hover {
     }
     .headmasterwelcomespeech {
       flex: none;
+      font-size: 16px;
+      line-height: 1.5;
+      overflow-y: scroll;
     }
+    }
+    
     .headmasterwelcomepic {
       margin: 0 auto;
     }
-  }
+
+    .welcomespeech {
+      overflow: auto;
+      max-width: 100%;
+    }
+    
+    
 
 /* Flip Card Responsiveness */
 
@@ -290,9 +311,14 @@ i:hover {
     flex-direction: column;
     align-items: center;
   }
-
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .flip-card-back {
+    width:fit-content;
+    
+  }
+}
   
 
  
