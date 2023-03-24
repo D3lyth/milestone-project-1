@@ -1,355 +1,427 @@
 /* Nav Bar Styling */
-/* LOGO AND NAME */ 
+/* LOGO AND NAME */
 .navbar, .bg-body-tertiary {
-padding: 0;
-}
-
-.navbar-brand {
-    float: left;
-    color: rgb(181, 146, 84);
-    font-family: 'Allure', cursive;
-    background-color: #333;
-    margin: 0;
-    font-size: 25px;
-}
-
-.navbar-brand:hover {
-    color: rgb(181, 146, 84);
-}
-#hogwartscrest {
-    padding: 2px;
-}
-.container-fluid {
-    background-color: #333;
-}
-
-.navbar-brand:focus {
-color: goldenrod;
-text-shadow:0px 0px 30px #fdec6e;
--moz-transition: all 0.2s ease-in;
--o-transition: all 0.2s ease-in;
--webkit-transition: all 0.2s ease-in;
-transition: all 0.2s ease-in; 
-}
-
-/* Nav Bar Responsiveness */
-
-@media (min-width: 768px) { /* Show on screens larger than or equal to 768px */
-  .navbar-brand .fulltitle {
-    display: inline-block;
+  padding: 0;
   }
-}
-
- @media (max-width: 767px) {
-    .navbar, .bg-body-tertiary {
-      padding: 0;
-    }
   
-    .navbar-brand .fulltitle { /* Hide on screens smaller than 768px */
-      display: none;
-    }
-    .navbar-brand {
-      float: none;
+  .navbar-brand {
+      float: left;
       color: rgb(181, 146, 84);
+      font-family: 'Allure', cursive;
       background-color: #333;
       margin: 0;
       font-size: 25px;
-    }
+  }
   
-    .container-fluid {
+  .navbar-brand:hover {
+      color: rgb(181, 146, 84);
+  }
+  #hogwartscrest {
+      padding: 2px;
+  }
+  .container-fluid {
       background-color: #333;
-      padding: 0.5rem;
-    }
-  }
-
-/* Anchor Links */ 
-
-/*Anchor Link Responsiveness */
-@media (max-width: 992px) { /* Hides links for screens smaller than 992px */
-  #menu .active {
-      display: none;
-  }
-      #menu a {
-       display: none;
-      }
-     }
-
-
-
-
-
-/* Hero Image Section - Hogwarts Castle */
-
-  .welcome {
-    position: relative;
-    margin: 0;
-    height: 33%
   }
   
-  .hogwarts-castle {
-    margin: 0;
-    padding-top: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  /* Dumbledore's Address Section */
-
-  .bottomhalf {
-    background-image: url('/assets/images/parchment.jpeg');
-  }
-
-  .headmasterwelcome {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-  
-
-  #headmaster {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-    .headmasterwelcomepic {
-        flex: 1;
-        margin: 10px;
-      }
-
-    .headmasterwelcomespeech {
-    flex: 2;
-    padding: 10px;
-    color: #333;
-    font-size: 18px;
-  }
-  
-  .welcomespeechtitle {
-    font-family: "Petit Formal Script", cursive;
-    text-align: center;
-    margin-top: 0;
-  }
-  
-  .welcomespeech {
-    flex: 1;
-    color: #333;
-    padding: 1rem;
-    font-family: "EB Garamond", sans-serif;
-  }
-  .dumbledore-address {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5%;
-  }
-
-  /* Flip Cards Section - Houses Crests and Information */
-
-  .hogwartshouses {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 2%;  
-}
-
-  .flip-card {
-    width: 300px;
-    height: 300px;
-    perspective: 1000px; 
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    border-radius: 5%;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    box-shadow: 0 0 20px #333;
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 5%;
-  }
-  
-  #flip-card-griffindor {
-    border: maroon solid 4px;
-    background-color: maroon;
-    color: gold;
-  }
-
-  #flip-card-ravenclaw {
-    border: navy solid 4px;
-    background-color: navy;
-    color: darkgray;
-  }
-
-  #flip-card-hufflepuff {
-    border: goldenrod solid 4px;
-    background-color: goldenrod;
-    color:black;
-  }
-
-  #flip-card-slytherin {
-    border: darkgreen solid 4px;
-    background-color: darkgreen;
-    color:silver;
-  }
-
-  .flip-card-front img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    object-fit: cover;
-  }
-  
-  .flip-card-back {
-    transform: rotateY(180deg);
-    border-radius: 5%;
-    font-size: 18px; /* adjust the font size based on your design */
-    line-height: 1.5; /* adjust the line height based on your font size */
-    padding: 20px; /* adjust the padding based on your design */
-    box-sizing: border-box; /* include padding and border in the total width and height of the element */
-    width: 100%; /* ensure the text fills the entire flip-card */
-    height: 100%; /* ensure the text fills the entire flip-card */
-    display: flex; /* use flexbox to center the content vertically and horizontally */
-    justify-content: center; /* center the content horizontally */
-    align-items: center; /* center the content vertically */
-  }
-
-  /* FOOTER STYLING */
-
-.social-networks {
-    padding: 10px;
-    margin: 0px;
-    height: 80px;
-    background-color: #333;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-}
-
-i {
-    color:  rgb(181, 146, 84);
-    font-size: 40px;
-}
-
-i:hover {
+  .navbar-brand:focus {
     color: goldenrod;
-    transform: scale(1.5);
   text-shadow:0px 0px 30px #fdec6e;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-@media only screen and (min-width: 992px) {
-    #menu a {
-        color: #333;
-        text-transform: uppercase;
-        font-family: 'Helvetica', sans-serif;
-        letter-spacing: 1px;
-        padding: 10px 20px;
-        border-radius: 5px;
-        transition: all 0.3s ease;
-        background-color: transparent;
-        color: darkgoldenrod;
+  transition: all 0.2s ease-in; 
+  }
+  
+  /* Anchor Links */
+  #menu {
+      padding-top: 1rem;
+  }
+  
+  ul li {
+     list-style-type: none;
+     font-size: 15px;
+     font-family: "helvetica", sans-serif;
+     display: inline;
+     justify-content: center;
+  }
+  
+  
+  a {
+      text-decoration: none;
+      display: inline;
+      padding: auto;
+      
+  }
+  
+  /* Hero Image Section - Hogwarts Castle */
+  
+    .welcome {
+      position: relative;
+      margin: 0;
+      height: 33%
     }
     
-a {
-    color: darkgoldenrod;
-    list-style-type: none;
-    display: inline;
-    font-family: Helvetica;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-#menu a {
-  color: hotpink;
- 
-  text-transform: uppercase;
-  font-family: Helvetica;
-  letter-spacing: 1px;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-  #menu a:hover {
-      background-color: darkgoldenrod;
-      color: #333;
-  }
- }
-
-/* Headmaster's Address Section */
-
-@media screen and (max-width: 768px) {
-    #headmaster {
-      flex-direction: column;
+    .hogwarts-castle {
+      margin: 0;
+      padding-top: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
     }
-
+  
+    /* Dumbledore's Address Section */
+  
+    .bottomhalf {
+      background-image: url('/assets/images/parchment.jpeg');
+    }
+  
     .headmasterwelcome {
-      flex-direction: column;
-    align-items: center;
-    }
-
-    .headmasterwelcomespeech {
-      flex: 2;
-      font-size: 16px;
-      line-height: 1.5;
-      overflow-y: scroll;
-      width: 100vw;
-    }
-    }
-
-    .headmasterwelcomepic {
-      margin: 0 auto;
-      width: 100vw;
-    }
-
-    .welcomespeech {
-      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2%;
+      padding-bottom: 2%;
     }
     
-/* Flip Card Responsiveness */
-
-@media (max-width: 786px) {
-
-  .hogwartshouses {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .hogwartshouses {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .flip-card {
-    width: calc(50% - 20px);
-    margin: 10px;
-  }
-}
-
-  @media (max-width: 600px) {
-    .flip-card-back {
-      font-size: 12px;
+  
+    #headmaster {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+      .headmasterwelcomepic {
+          flex: 1;
+          margin: 10px;
+        }
+  
+      .headmasterwelcomespeech {
+      flex: 2;
       padding: 10px;
+      color: #333;
+      font-size: 18px;
+    }
+    
+    .welcomespeechtitle {
+      font-family: "Petit Formal Script", cursive;
+      text-align: center;
+      margin-top: 0;
+    }
+    
+    .welcomespeech {
+      flex: 1;
+      color: #333;
+      padding: 1rem;
+      font-family: "EB Garamond", sans-serif;
+    }
+    .dumbledore-address {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 5%;
+    }
+  
+    /* Flip Cards Section - Houses Crests and Information */
+  
+    .hogwartshouses {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-bottom: 2%;  
+  }
+  
+    .flip-card {
+      width: 300px;
+      height: 300px;
+      perspective: 1000px; 
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      border-radius: 5%;
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+      box-shadow: 0 0 20px #333;
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 5%;
+    }
+    
+    #flip-card-griffindor {
+      border: maroon solid 4px;
+      background-color: maroon;
+      color: gold;
+    }
+  
+    #flip-card-ravenclaw {
+      border: navy solid 4px;
+      background-color: navy;
+      color: darkgray;
+    }
+  
+    #flip-card-hufflepuff {
+      border: goldenrod solid 4px;
+      background-color: goldenrod;
+      color:black;
+    }
+  
+    #flip-card-slytherin {
+      border: darkgreen solid 4px;
+      background-color: darkgreen;
+      color:silver;
+    }
+  
+    .flip-card-front img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5%;
+      object-fit: cover;
+    }
+    
+    .flip-card-back {
+      transform: rotateY(180deg);
+      border-radius: 5%;
+      font-size: 18px; /* adjust the font size based on your design */
+      line-height: 1.5; /* adjust the line height based on your font size */
+      padding: 20px; /* adjust the padding based on your design */
+      box-sizing: border-box; /* include padding and border in the total width and height of the element */
+      width: 100%; /* ensure the text fills the entire flip-card */
+      height: 100%; /* ensure the text fills the entire flip-card */
+      display: flex; /* use flexbox to center the content vertically and horizontally */
+      justify-content: center; /* center the content horizontally */
+      align-items: center; /* center the content vertically */
+    }
+  
+    /* FOOTER STYLING */
+  
+  .social-networks {
+      padding: 10px;
+      margin: 0px;
+      height: 80px;
+      background-color: #333;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      list-style: none;
+  }
+  
+  i {
+      color:  rgb(181, 146, 84);
+      font-size: 40px;
+  }
+  
+  i:hover {
+      color: goldenrod;
+      transform: scale(1.5);
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+  /*Responsiveness */
+  
+   /* Nav Bar Responsiveness */
+  
+   @media (min-width: 768px) { /* Show on screens larger than or equal to 768px */
+    .navbar-brand .fulltitle {
+      display: inline-block;
     }
   }
+  
+   @media (max-width: 767px) {
+      .navbar, .bg-body-tertiary {
+        padding: 0;
+      }
+    
+      .navbar-brand .fulltitle { /* Hide on screens smaller than 768px */
+        display: none;
+      }
+      .navbar-brand {
+        float: none;
+        color: rgb(181, 146, 84);
+        font-family: 'Allure', cursive;
+        background-color: #333;
+        margin: 0;
+        font-size: 25px;
+      }
+    
+      .container-fluid {
+        background-color: #333;
+        padding: 0.5rem;
+      }
+    
+      #menu {
+        margin: 0;
+        padding-top: 0.5rem;
+      }
+    
+      ul li {
+        list-style-type: none;
+        display: inline;
+        color: rgb(181, 146, 84);
+        margin-right: 1rem;
+      }
+    
+      a {
+        list-style-type: none;
+        display: inline;
+        font-family: "Helvetica", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+      }
+   }
+  
+   @media (max-width: 992px) {
+    #menu {
+      display:none;
+    }
+  }
+
+   @media (min-width: 992px) and (max-width: 1600px){
+    #menu li {
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 15px;
+      justify-content: center;
+    }
+    
+    #menu a {
+      color: darkgoldenrod;
+      text-transform: uppercase;
+      font-family: 'Helvetica', sans-serif;
+      letter-spacing: 1px;
+      padding: 10px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+  
+    #menu a:hover {
+      background-color: none;
+      color: goldenrod;
+      transform: scale(1.5);
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    }
+  
+    #menu .active {
+      text-decoration: underline;
+      color: goldenrod;
+    }
+  }
+  
+  
+  /* Headmaster's Address Section */
+  
+  @media screen and (max-width: 768px) {
+      #headmaster {
+        flex-direction: column;
+      }
+  
+      .headmasterwelcome {
+        flex-direction: column;
+      align-items: center;
+      }
+  
+      .headmasterwelcomespeech {
+        flex: 2;
+        font-size: 16px;
+        line-height: 1.5;
+        overflow-y: scroll;
+        width: 100vw;
+      }
+      }
+  
+      .headmasterwelcomepic {
+        margin: 0 auto;
+        width: 100vw;
+      }
+  
+      .welcomespeech {
+        
+        max-width: 100%;
+      }
+      
+  /* Flip Card Responsiveness */
+  
+  @media (max-width: 786px) {
+  
+    .hogwartshouses {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hogwartshouses {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .flip-card {
+      width: calc(50% - 20px);
+      margin: 10px;
+    }
+  }
+  
+    @media (max-width: 600px) {
+      .flip-card-back {
+        font-size: 12px;
+        padding: 10px;
+      }
+    }
+  
+    /* Burger Button Styling for mobile naavbar */
+
+.dropdown {
+  display: flex;
+  float: right;
+  justify-self: flex-end;
+  
+  }
+  
+  .btn-secondary {
+      --bs-btn-color: goldenrod;
+      --bs-btn-bg: #333;
+      --bs-btn-border-color: goldenrod;
+      --bs-btn-hover-color: gold;
+      --bs-btn-hover-bg: #333;
+      --bs-btn-hover-border-color: #333;
+      --bs-btn-active-color: yellow;
+      --bs-btn-active-bg:goldenrod;
+      --bs-btn-active-border-color: #333;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  }
+  
+  .dropdown-menu {
+     
+      --bs-dropdown-color: goldenrod;
+      --bs-dropdown-bg: #333;
+      --bs-dropdown-link-color: goldenrod;
+      --bs-dropdown-link-hover-color: #333;
+      --bs-dropdown-link-hover-bg: darkgoldenrod;
+      --bs-dropdown-link-active-color: darkgoldenrod;
+      
+  }
+  
+  @media screen and (min-width: 992px) {
+  .dropdown {
+      display: none;
+  }
+  }
+  
