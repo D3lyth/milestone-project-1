@@ -193,15 +193,15 @@
     .flip-card-back {
       transform: rotateY(180deg);
       border-radius: 5%;
-      font-size: 18px; /* adjust the font size based on your design */
-      line-height: 1.5; /* adjust the line height based on your font size */
-      padding: 20px; /* adjust the padding based on your design */
-      box-sizing: border-box; /* include padding and border in the total width and height of the element */
-      width: 100%; /* ensure the text fills the entire flip-card */
-      height: 100%; /* ensure the text fills the entire flip-card */
-      display: flex; /* use flexbox to center the content vertically and horizontally */
-      justify-content: center; /* center the content horizontally */
-      align-items: center; /* center the content vertically */
+      font-size: 15px; 
+      line-height: 1.5;
+      padding: 5px;
+      box-sizing: border-box;
+      width: 100%; 
+      height: 100%; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   
     /* FOOTER STYLING */
