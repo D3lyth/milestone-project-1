@@ -11,7 +11,7 @@ body {
   
   .navbar-brand {
       float: left;
-      color: rgb(181, 146, 84);
+      color: darkgoldenrod;
       font-family: 'Allure', cursive;
       background-color: #333;
       margin: 0;
@@ -19,7 +19,7 @@ body {
   }
   
   .navbar-brand:hover {
-      color: rgb(181, 146, 84);
+      color: goldenrod;
   }
   #hogwartscrest {
       padding: 2px;
@@ -45,7 +45,7 @@ body {
   ul li {
      list-style-type: none;
      font-size: 15px;
-     font-family: "helvetica", sans-serif;
+     font-family: "Quicksand", sans-serif;
      display: inline;
      justify-content: center;
   }
@@ -328,7 +328,7 @@ body {
     #menu a {
       color: darkgoldenrod;
       text-transform: uppercase;
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'Quicksand', sans-serif;
       letter-spacing: 1px;
       padding: 10px;
       border-radius: 5px;
