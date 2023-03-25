@@ -386,7 +386,7 @@
       }
     }
   
-    /* Burger Button Styling for mobile naavbar */
+    /* Burger Button Styling for mobile navbar */
 
 .dropdown {
   display: flex;
@@ -425,3 +425,86 @@
   }
   }
   
+  /*Styling for the Book Carousel Starts heer */
+
+body {
+    background-color: #333;
+}
+.book-card {
+    width: 18rem;
+    height: 25rem;
+    margin: auto;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .card {
+    background-image: url('./images/parchment.jpeg');
+    box-shadow: 5px 5px 50px rgba(220, 184, 22, 0.923);
+  }
+  
+  .card-img-top {
+    object-fit: contain; 
+    height: 20rem;
+    margin-top: 5%;
+  }
+  
+  .card-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-overflow: clip;
+    width: 100%;
+    color: #333;
+    padding: 0.5%;
+    font-size: 12px;
+    background-color: goldenrod;
+    border: solid 2px darkgoldenrod;
+    margin-bottom: 15%;
+  }
+
+  .author {
+    font-family: 'Licorice', cursive;
+  }
+
+  .card-body {
+    width: 70%;
+    object-fit: contain;
+    padding:5px;
+  }
+
+.carousel-inner {
+    overflow: visible;
+}
+
+/*Carousel Indicator Styling */
+
+  #carouselExampleIndicators {
+    position: relative;
+  }
+  
+  button {
+    background-color: darkgoldenrod;
+  }
+  .carousel-indicators {
+    position: relative;
+    top: 460px; 
+    background-color: transparent;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: goldenrod;
+
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    bottom: -3rem;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    bottom: -3rem;
+    background-color: darkgoldenrod;
+  }
