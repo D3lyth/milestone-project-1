@@ -103,7 +103,7 @@
     }
     
     .welcomespeechtitle {
-      font-family: "Petit Formal Script", cursive;
+      font-family: 'Licorice', cursive;
       text-align: center;
       margin-top: 0;
     }
@@ -112,7 +112,7 @@
       flex: 1;
       color: #333;
       padding: 1rem;
-      font-family: "EB Garamond", sans-serif;
+      font-family: 'quicksand', sans-serif;
     }
     .dumbledore-address {
       display: block;
@@ -425,7 +425,69 @@
   }
   }
   
-  /*Styling for the Book Carousel Starts heer */
+  /* Styling for Information Page elements */
+
+  .infopage {
+    color:goldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .hogwartsbooksinfotexttop, .otherbooks, .hogwartsbooksinfotextbottom {
+    color:goldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    padding-left:5%;
+    padding-right:5%;
+    font-size: 20px;
+  }
+  .hogwartsbooksinfotexttop {
+    margin-top:8%;
+  }
+
+  .hogwartsbooksinfotextbottom {
+    margin-top:1%;
+  }
+
+  .otherbooks {
+    margin-top:1%;
+  }
+
+  .hogwartsbooks {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:goldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .coretext {
+    color:darkgoldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    list-style: none;
+  }
+   .first-yearbooks, .second-yearbooks, .third-yearbooks, .fourth-yearbooks, .fifth-yearbooks, .sixth-yearbooks, .seventh-yearbooks {
+    color:darkgoldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+  }
+
+  h4 {
+    color:goldenrod;
+    font-family: 'quicksand', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  /*Styling for the Book Carousel Starts here */
 
 body {
     background-color: #333;
