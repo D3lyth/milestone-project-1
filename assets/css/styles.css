@@ -1,3 +1,8 @@
+body {
+  background-image: url('/assets/images/parchment.jpeg');
+}
+
+
 /* Nav Bar Styling */
 /* LOGO AND NAME */
 .navbar, .bg-body-tertiary {
@@ -103,7 +108,7 @@
     }
     
     .welcomespeechtitle {
-      font-family: 'Licorice', cursive;
+      font-family: 'Princess Sofia', cursive;
       text-align: center;
       margin-top: 0;
     }
@@ -112,13 +117,34 @@
       flex: 1;
       color: #333;
       padding: 1rem;
-      font-family: 'quicksand', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bolder;
+    }
+
+    .signature {
+      font-family: 'Princess Sofia', cursive;
+      float:right;
     }
     .dumbledore-address {
       display: block;
       max-width: 100%;
       height: auto;
       border-radius: 5%;
+    }
+    .housetitle {
+      color:#333;
+      font-family: 'Princess Sofia', cursive;
+      text-align: left;
+      padding-left:2%;
+      padding-right:5%;
+      font-size: 35px;
+    }
+
+    .housesinfo {
+      font-family: 'Roboto', sans-serif;
+      padding-left:2%;
+      padding-right:2%;
+      font-size: 18px;
     }
   
     /* Flip Cards Section - Houses Crests and Information */
@@ -168,7 +194,7 @@
     #flip-card-ravenclaw {
       border: navy solid 4px;
       background-color: navy;
-      color: darkgray;
+      color: rgb(201, 125, 54);
     }
   
     #flip-card-hufflepuff {
@@ -428,20 +454,35 @@
   /* Styling for Information Page elements */
 
   .infopage {
-    color:goldenrod;
-    font-family: 'quicksand', sans-serif;
-    text-align: center;
-    font-size: 30px;
+    color:#333;
+    font-family: 'Princess Sofia', cursive;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
   }
+ .infopagetext {
+  color:#333;
+  font-family: 'Quicksand', sans-serif;
+      padding-left:2%;
+      padding-right:2%;
+      font-size: 18px;
+ }
 
   .hogwartsbooksinfotexttop, .otherbooks, .hogwartsbooksinfotextbottom {
-    color:goldenrod;
-    font-family: 'quicksand', sans-serif;
+    color:#333;
+    font-family: 'Princess Sofia', cursive;
     text-align: center;
     padding-left:5%;
     padding-right:5%;
-    font-size: 20px;
+    font-size: 25px;
   }
+
+  .hogwartsbooksinfo, .bookcarousel {
+    background-image: url('/assets/images/parchment.jpeg');
+  }
+
   .hogwartsbooksinfotexttop {
     margin-top:8%;
   }
@@ -456,42 +497,37 @@
 
   .hogwartsbooks {
     letter-spacing: 2px;
-    text-transform: uppercase;
-    color:goldenrod;
-    font-family: 'quicksand', sans-serif;
+    color:#333;
+    font-family: 'Princess Sofia', cursive;
     text-align: left;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 35px;
+    padding: 2%;
   }
 
   .coretext {
-    color:darkgoldenrod;
+    color:#333;
     font-family: 'quicksand', sans-serif;
     text-align: center;
     font-size: 17px;
     list-style: none;
   }
    .first-yearbooks, .second-yearbooks, .third-yearbooks, .fourth-yearbooks, .fifth-yearbooks, .sixth-yearbooks, .seventh-yearbooks {
-    color:darkgoldenrod;
+    color:#333;
     font-family: 'quicksand', sans-serif;
     text-align: center;
     font-size: 14px;
     list-style: none;
   }
 
-  h4 {
-    color:goldenrod;
-    font-family: 'quicksand', sans-serif;
+  .schoolyear {
+    color:#333;
+    font-family: 'Princess Sofia', cursive;
     text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 20px;
   }
 
   /*Styling for the Book Carousel Starts here */
 
-body {
-    background-color: #333;
-}
 .book-card {
     width: 18rem;
     height: 25rem;
@@ -503,7 +539,7 @@ body {
   }
 
   .card {
-    background-image: url('./images/parchment.jpeg');
+    background-color: #333;
     box-shadow: 5px 5px 50px rgba(220, 184, 22, 0.923);
   }
   
@@ -556,17 +592,16 @@ body {
   }
   
   .carousel-indicators [data-bs-target] {
-    background-color: goldenrod;
+    background-color: #333;
 
   }
   
-  .carousel-control-prev,
-  .carousel-control-next {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
     bottom: -3rem;
   }
   
   .carousel-control-prev,
   .carousel-control-next {
     bottom: -3rem;
-    background-color: darkgoldenrod;
   }
