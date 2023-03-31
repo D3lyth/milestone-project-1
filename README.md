@@ -1,8 +1,8 @@
-# Hogwarts School of Witchcraft and Wizardy Website
+# Hogwarts School of Witchcraft and Wizardry Website
 
-Welcome to the Hogwarts School Website, an online resource for students, parents and guardians of current and prospective Hogwarts students. The website has been inspired by JK Rowling's famous Harry Potter book series. The aim is to provide a fictional platform that serves as a hub of information for all things related to Hogwarts School of Witchcraft and Wizardry. 
+Welcome to the Hogwarts School Website, an online resource for students, parents and guardians of current and prospective Hogwarts students. The website has been inspired by JK Rowling's famous Harry Potter book series. The aim is to provide a fictional platform that serves as a hub of information for all things related to Hogwarts School of Witchcraft and Wizardry.
 
-A live version of the site van be viewed from here.
+A live version of the site can be viewed from [here.]https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone-project-1
 
 Table of Contents
 
@@ -15,52 +15,45 @@ In this section, describe what the project hopes to accomplish, who it is intend
 
 
 Here is a mock-up image of the Hogwarts website, using the "Am I Responsive"
-Consider adding a mockup image using the "Am I Responsive" website.
 
 ![screenshot](documentation/mockup.png)
 
 ## UX
 
-The design process started with some sketches of the website for mobile screens. Sketches were made on the Goodnotes App on the iPad.
+The design process started with some sketches of the website for mobile screens. Sketches were initially made on the Goodnotes App on the iPad.
 
+![screenshot](documentation...)
 
-In this section, you will briefly explain your design processes.
+After the initial sketch, Balsamiq was used to create the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
 
 ### Colour Scheme
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 The inspiration for the colours and colour scheme for the website was based on the Great Hall in Hogwarts Castle the colour of parchment (which is the main material used by students at Hogwarts for their class notes and letters sent by owls to others outside of the school) and the main colours of the crests used in for the four school houses.
 
 The colours of the Great hall include browns, which represent the interior and the long house benches that pupils eat their meals by; golds, which represent drinking goblets and other other tableware, and wand-light.
 
+Brown: #333
+Dark Gold: #b8860b
+Gold (for logo): #b59254
+Bright Gold: #daa520
+Yellow Glow: #fdec6e
+
+Adobe Color was used to create the colour palette [https://color.adobe.com/create/color-wheel].
+
+![screenshot](documentation/colourpalette.png)
+
+- #333 used for primary text on light background
+- #b8860b used for text on dark background
+- #b59254 used for Hogwarts logo
+- #daa520 and #fdec6e used for on hover glow highlighting
+
 The house colours (used mainly on the flip cards on the 'home page') are as follows:
-Griffindor - Maroon and gold
-Ravenclaw - Dark blue and bronze
-Hufflepuff - Yellow and black
-Slytherin - Green and silver
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Griffindor - Maroon (#800000) and gold (#fad700)
+Ravenclaw - Dark blue (#000080) and bronze (#c97d36)
+Hufflepuff - Yellow (#eed813) and black (#000000)
+Slytherin - Green (#006400) and silver (#c0c0c0)
 
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
