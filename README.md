@@ -1,20 +1,16 @@
 # Hogwarts School of Witchcraft and Wizardry Website
 
-Welcome to the Hogwarts School Website, an online resource for students, parents and guardians of current and prospective Hogwarts students. The website has been inspired by JK Rowling's famous Harry Potter book series. The aim is to provide a fictional platform that serves as a hub of information for all things related to Hogwarts School of Witchcraft and Wizardry.
+Welcome to the Hogwarts School Website, an online resource for students, parents and guardians of current and prospective Hogwarts students. The website has been inspired by JK Rowling's famous Harry Potter book series. The aim is to provide a fictional platform that serves as a hub of information for all things related to Hogwarts School of Witchcraft and Wizardry that any prospective or current Hogwarts student might deem useful.
 
-A live version of the site can be viewed from [here.]https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone-project-1
+It will be useful to the target audience as it will be welcoming new and current students to the school with a welcome message from the Headmaster, and will provide information about the school houses that play a vital role in school life. It will also provide the students and their families with information regarding reading lists for required texts for each year, uniform information and sogn up sheets for extra-curricular activities.
+
+A live version of the site can be viewed from [here.](https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone-project-1)
 
 Table of Contents
 
 ****INSERT CONTENTS HERE******
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-
-Here is a mock-up image of the Hogwarts website, using the "Am I Responsive"
+Here is a mock-up image of the Hogwarts website, using the "Am I Responsive" site.
 
 ![screenshot](documentation/mockup.png)
 
@@ -24,19 +20,17 @@ The design process started with some sketches of the website for mobile screens.
 
 ![screenshot](documentation...)
 
-After the initial sketch, Balsamiq was used to create the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
-
 ### Colour Scheme
 
 The inspiration for the colours and colour scheme for the website was based on the Great Hall in Hogwarts Castle the colour of parchment (which is the main material used by students at Hogwarts for their class notes and letters sent by owls to others outside of the school) and the main colours of the crests used in for the four school houses.
 
 The colours of the Great hall include browns, which represent the interior and the long house benches that pupils eat their meals by; golds, which represent drinking goblets and other other tableware, and wand-light.
 
-Brown: #333
-Dark Gold: #b8860b
-Gold (for logo): #b59254
-Bright Gold: #daa520
-Yellow Glow: #fdec6e
+- Brown: #333
+- Dark Gold: #b8860b
+- Gold (for logo): #b59254
+- Bright Gold: #daa520
+- Yellow Glow: #fdec6e
 
 Adobe Color was used to create the colour palette [https://color.adobe.com/create/color-wheel].
 
@@ -48,12 +42,10 @@ Adobe Color was used to create the colour palette [https://color.adobe.com/creat
 - #daa520 and #fdec6e used for on hover glow highlighting
 
 The house colours (used mainly on the flip cards on the 'home page') are as follows:
-Griffindor - Maroon (#800000) and gold (#fad700)
-Ravenclaw - Dark blue (#000080) and bronze (#c97d36)
-Hufflepuff - Yellow (#eed813) and black (#000000)
-Slytherin - Green (#006400) and silver (#c0c0c0)
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+- Griffindor - Maroon (#800000) and gold (#fad700)
+- Ravenclaw - Dark blue (#000080) and bronze (#c97d36)
+- Hufflepuff - Yellow (#eed813) and black (#000000)
+- Slytherin - Green (#006400) and silver (#c0c0c0)
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
@@ -129,14 +121,12 @@ In this section, list all of your user stories for the project.
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, display your wireframe screenshots using a Markdown `table`.
+After the initial sketch, and to follow best practice, Balsamiq [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
 
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
+🟢In this section, display your wireframe screenshots using a Markdown `table`.
+Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html🟢
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
 ### Home Page Wireframes
 
@@ -146,25 +136,23 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
 
-### About Page Wireframes
+### Information Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
+| Mobile | ![screenshot](documentation/wireframes/mobile-info.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-info.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-info.png) |
 
-### Contact Page Wireframes
+### Clubs Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+| Mobile | ![screenshot](documentation/wireframes/mobile-clubs.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-clubs.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-clubs.png) |
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat for any addition wireframe pages you have.
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
@@ -247,24 +235,12 @@ Feel free to delete any unused items below as necessary.
 - [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+
 
 ## Testing
 
