@@ -12,13 +12,13 @@ Table of Contents
 
 Here is a mock-up image of the Hogwarts website, using the "Am I Responsive" site.
 
-![screenshot](documentation/mockup.png)
+![screenshot](documentation/mockuplight.png)
 
 ## UX
 
 The design process started with some sketches of the website for mobile screens. Sketches were initially made on the Goodnotes App on the iPad.
 
-![screenshot](documentation...)
+![screenshot](documentation/homepagesketch.jpeg) ![screenshot](documentation/infopage.jpeg)  ![screenshot](documentation/signupsketch.jpeg)
 
 ### Colour Scheme
 
@@ -47,41 +47,29 @@ The house colours (used mainly on the flip cards on the 'home page') are as foll
 - Hufflepuff - Yellow (#eed813) and black (#000000)
 - Slytherin - Green (#006400) and silver (#c0c0c0)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+The fonts used for the website are listed below, and are all from Google Fonts.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+Allure is a Google Font thaat was chosen as the Logo font for the School with cursive being the fallback font.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+Princess Sofia is a Google Font that was chosen as a cursive text to give the main headings and titles of the site an old-fashioned, handwritten look.
 
-Example:
+Another google for that was used for the primary text of the website was another Google Font - 'Quicksand'. The back-up font is 'sans-serif'. Although this isn't an 'old-fashioned' cursive font, it was chosen for its readability as Princess Sofia as a small font was more difficult to read. 
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Some other parts of the text used the Google Font 'Roboto'. This is also a sans-serif font, which is quite similar to 'Quicksand' in style. But is was used for parts of the site that required a substantial amount of text, but was still different to the primary text. It was used in places such as 'The Headmaster's Speech' and 'card information'.
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+The last Google Fonts used was 'Licorice' - this is seen on the book labels on the carousel.This font was chosen again for its handwritten look, with cursive being the fallback font.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- Th standard 'cursive' font was used for the font in the logo - although other fonts were trialled, the cursive font looked the most suitable.
+
+- [Princess Sofia](https://fonts.google.com/specimen/Princess+Sofia) was used for the primary headers and titles. The fallback font was 'cursive'.
+
+- [Quicksand](https://fonts.google.com/specimen/Quicksand) was used for all other secondary text for its readability. The fallback font used was 'sans-serif'.
+
+-- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all text that needed to stand out a bit. The fallback font used was 'sans-serif'.
+
+- [Licorice](https://fonts.google.com/specimen/Licorice) was used for small detailing on the book labels found on the carousel. The fallback font was 'cursive'.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
