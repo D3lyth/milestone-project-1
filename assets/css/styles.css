@@ -12,7 +12,7 @@ body {
   .navbar-brand {
       float: left;
       color: darkgoldenrod;
-      font-family: 'Allure', cursive;
+      font-family: cursive;
       background-color: #333;
       margin: 0;
       font-size: 25px;
