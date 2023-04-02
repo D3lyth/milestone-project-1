@@ -715,3 +715,41 @@ section#subutton {
   text-align: center;
   margin-top: 2%;
 }
+
+/* Styling for Sign-up Complete page */
+
+#signupthanks {
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:16%;
+}
+
+#returnlink {
+  color: #333;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#return {
+text-align: center;
+margin-bottom: 5%;
+}
+
+#returnlink:hover {
+    color: goldenrod;
+}
+
+#return:hover {
+    transform: scale(1.2);
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
