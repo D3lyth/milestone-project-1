@@ -54,31 +54,34 @@
     </nav>
   </header>
 
+  <h2 id="signuptitle">Extra Curricular Clubs at Hogwarts</h2>
+  <p id="signupintro">Here at Hogwarts you will be provided with the best magical education in the world. 
+      At Hogwarts, academics and extracurricular clubs and activities play an important role in shaping the overall 
+      development of a student. While academics are the foundation of a Hogwarts student's education, participating 
+      in clubs and activities can provide numerous benefits. Make the most of your time here at Hogwarts, and get stuck 
+      in - joining clubs is a great opportunity to learn a new skill and to make life-long friends. Sign up below!
+  </p>
 <!-- Beginning of Sign up form-->
-      <section class="form-section">
-        <form method="POST" action="_blank" class="signup-form">
-          <h2>Extra Curricular Clubs at Hogwarts</h2>
-          <p>Here at Hogwarts you will be provided with the best magical education in the world. 
-            At Hogwarts, academics and extracurricular clubs and activities play an important role in shaping the overall 
-            development of a student. While academics are the foundation of a Hogwarts student's education, participating 
-            in clubs and activities can provide numerous benefits. Make the most of your time here at Hogwarts, and get stuck 
-            in - joining clubs is a great opportunity to learn a new skill and to make life-long friends. Sign up below!
-          </p>
-          <fieldset class="personalinfo"></fieldset>
-          <label for="fname" id="fname">First Name:</label>
-           <input id="fname" type="text" placeholder="Enter your First name" name="first_name" class="text-input" required />
+<section class="completeform">
+  <section id="form-section">
+    <form method="POST" action="_blank" class="signup-form">
+      
+        <section class="personalinfo">
+          <label class="labelname" for="fname" id="fname">First Name:</label>
+           <input id="fname" type="text" placeholder="Enter your first name" name="first_name" class="text-input" required />
            <br>
-          <label for="lname" id="lname">Last Name:</label>
-           <input id="lname" type="text" placeholder="Enter your Last name" name="last_name" class="text-input" required />
-          <br>
-           <label for="email" id="email">Magic Owl E-mail:</label>
+          <label class="labelname" for="lname" id="lname">Last Name:</label>
+           <input id="lname" type="text" placeholder="Enter your last name" name="last_name" class="text-input" required />
+           <br>
+          <label class="labelname" for="email" id="email">Magic Owl E-mail:</label>
            <input id="email" type="email" placeholder="name@email.com" name="email_address" class="text-input" required />
-          </fieldset>
-        <section>
+        </section>
+         
+         <section class="yeardropdown">
            <form class="yeardropdown">
-            <label class="form__label" for="year">Year: </label>
-             <select type="text" id="year" name="year">
-              <option value="">--Please choose an option--</option>
+             <label class="form__label labelname" for="year">Year: </label>
+              <select type="text" id="year" name="year">
+               <option value="">--Please choose an option--</option>
                <option value="year1">Year 1</option>
                <option value="year2">Year 2</option>
                <option value="year3">Year 3</option>
@@ -86,24 +89,25 @@
                <option value="year5">Year 5</option>
                <option value="year6">Year 6</option>
                <option value="year7">Year 7</option>
-            </select>
-            </form>
+             </select>
+           </form>
         </section> 
+
         <section>
-          <form class="hohdropdown">
-            <label class="form__label" for="hoh">Head of House: </label>
-             <select type="text" id="hoh" name="hoh">
-              <option value="">--Please choose an option--</option>
+           <form class="hohdropdown">
+             <label class="form__label labelname" for="hoh">Head of House: </label>
+              <select type="text" id="hoh" name="hoh">
+               <option value="">--Please choose an option--</option>
                <option value="hoh1">Professor McGonagall</option>
                <option value="hoh2">Professor Flitwick</option>
                <option value="hoh3">Professor Sprout</option>
                <option value="hoh4">Professor Snape</option>
-            </select>
+             </select>
             </form>
-        </section> 
-        <section>
-          <form class="clubselection">
-            Please select the clubs that interest you. <span>(Choose all that may apply.)</span><br>
+         </section> 
+
+         <section>
+           <form class="clubselection"> Please select the clubs that interest you. <span class="choice">(Choose all that may apply.)</span><br>
               <input type="checkbox" id="option1" name="option1" value="option1">
               <label for="option1">Quidditch (Year 2 and up)</label><br>
               <input type="checkbox" id="option2" name="option2" value="option2">
@@ -124,26 +128,31 @@
               <label for="option9">S.P.E.W.</label><br>
               <input type="checkbox" id="option10" name="option10" value="option10">
               <label for="option10">Chocolate Frog Card-Swap Club</label><br>
-          </form>
-        </section>
-<section class="hogsmedesignup">
-  <form class="hogsmede">
-    Please read the following and select option yes or no. <span>(For students in Year 3 or above.)</span><br>
-   <p>I, as the parent or guardian of the student named above 
-    <span><form class="permission">
-       <select type="text" id="permissionslip" name="permissionslip">
-        <option value="">--Please choose an option--</option>
-         <option value="yes">do</option>
-         <option value="no">do not</option>
-      </select>
-      </form> </span> 
-      give permission to visit Hogsmede on weekends. </p>  
+           </form>
+         </section>
+         
+         <section class="hogsmedesignup">
+           <form class="hogsmede">Please read the following and select option yes or no. <span>(For students in Year 3 or above.)</span><br>
+             <p id="permissionliptext">I, as the parent or guardian of the student named above 
+                <span><form class="permission">
+                  <select type="text" id="permissionslip" name="permissionslip">
+                    <option value="">--Please choose an option--</option>
+                    <option value="yes">do</option>
+                    <option value="no">do not</option>
+                  </select>
+                </form> </span> give permission to visit Hogsmede on weekends. 
+              </p>  
+           </form>
+         </section>
+        
+         <section class="subutton">
+            <form action="signupcomplete.html">
+              <input id="signupbutton" type="submit" value="Submit">
+            </form>
+         </section>
   </form>
-</section>
-
-<form action="signupcomplete.html">
-  <input type="submit" value="Submit">
-</form>
+  </section>
+  </section>
 
    <!-- Footer -->
 <footer id="socials">
