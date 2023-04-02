@@ -59,8 +59,9 @@
       At Hogwarts, academics and extracurricular clubs and activities play an important role in shaping the overall 
       development of a student. While academics are the foundation of a Hogwarts student's education, participating 
       in clubs and activities can provide numerous benefits. Make the most of your time here at Hogwarts, and get stuck 
-      in - joining clubs is a great opportunity to learn a new skill and to make life-long friends. Sign up below!
-  </p>
+      in - joining clubs is a great opportunity to learn a new skill and to make life-long friends. Sign up below! <br>
+   </p>
+   <h3 id="signupnow">Sign Up Now!</h3>
 <!-- Beginning of Sign up form-->
 <section class="completeform">
   <section id="form-section">
@@ -70,12 +71,15 @@
           <label class="labelname" for="fname" id="fname">First Name:</label>
            <input id="fname" type="text" placeholder="Enter your first name" name="first_name" class="text-input" required />
            <br>
+           <br>
           <label class="labelname" for="lname" id="lname">Last Name:</label>
            <input id="lname" type="text" placeholder="Enter your last name" name="last_name" class="text-input" required />
            <br>
+           <br>
           <label class="labelname" for="email" id="email">Magic Owl E-mail:</label>
            <input id="email" type="email" placeholder="name@email.com" name="email_address" class="text-input" required />
-        </section>
+        <br>
+          </section>
          
          <section class="yeardropdown">
            <form class="yeardropdown">
@@ -91,6 +95,7 @@
                <option value="year7">Year 7</option>
              </select>
            </form>
+           <br>
         </section> 
 
         <section>
@@ -104,10 +109,11 @@
                <option value="hoh4">Professor Snape</option>
              </select>
             </form>
+            <br>
          </section> 
 
          <section>
-           <form class="clubselection"> Please select the clubs that interest you. <span class="choice">(Choose all that may apply.)</span><br>
+           <form class="clubselection"> <label id="clubs" for="clubs" >Please select the clubs that interest you. <span class="choice">(Choose all that may apply.)</span></label><br>
               <input type="checkbox" id="option1" name="option1" value="option1">
               <label for="option1">Quidditch (Year 2 and up)</label><br>
               <input type="checkbox" id="option2" name="option2" value="option2">
@@ -132,15 +138,16 @@
          </section>
          
          <section class="hogsmedesignup">
-           <form class="hogsmede">Please read the following and select option yes or no. <span>(For students in Year 3 or above.)</span><br>
-             <p id="permissionliptext">I, as the parent or guardian of the student named above 
+           <form class="hogsmede">The following part of the form is to indicate whether your child has permission to attend Hogsmede Village during weekends. 
+            Please read the following and select the aption that applies. <span id="slip">(For students in Year 3 or above.)</span><br>
+             <p id="permissionliptext">After careful consideration, as the parent or guardian of the student named above, I
                 <span><form class="permission">
                   <select type="text" id="permissionslip" name="permissionslip">
                     <option value="">--Please choose an option--</option>
                     <option value="yes">do</option>
                     <option value="no">do not</option>
                   </select>
-                </form> </span> give permission to visit Hogsmede on weekends. 
+                </form> </span> give permission to visit Hogsmede on weekends and take full responsibility for this decision. 
               </p>  
            </form>
          </section>
