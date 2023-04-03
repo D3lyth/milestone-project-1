@@ -1,5 +1,5 @@
 body {
-  background-image: url('/assets/images/parchment.jpeg');
+  background-image: url('assets/images/parchment.jpeg');
 }
 
 
@@ -84,7 +84,7 @@ body {
     }
 
     .bottomhalf {
-      background-image: url('/assets/images/parchment.jpeg');
+      background-image: url('assets/images/parchment.jpeg');
     }
   
     .headmasterwelcome {
