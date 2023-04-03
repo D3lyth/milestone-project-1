@@ -2,13 +2,9 @@
 
 Welcome to the Hogwarts School Website, an online resource for students, parents and guardians of current and prospective Hogwarts students. The website has been inspired by JK Rowling's famous Harry Potter book series. The aim is to provide a fictional platform that serves as a hub of information for all things related to Hogwarts School of Witchcraft and Wizardry that any prospective or current Hogwarts student might deem useful.
 
-It will be useful to the target audience as it will be welcoming new and current students to the school with a welcome message from the Headmaster, and will provide information about the school houses that play a vital role in school life. It will also provide the students and their families with information regarding reading lists for required texts for each year, uniform information and sogn up sheets for extra-curricular activities.
+It will be useful to the target audience as it will be welcoming new and current students to the school with a welcome message from the Headmaster, and will provide information about the school houses that play a vital role in school life. It will also provide the students and their families with information regarding reading lists for required texts for each year and a sign up sheet for extra-curricular activities.
 
 A live version of the site can be viewed from [here.](https://ui.dev/amiresponsive?url=https://d3lyth.github.io/milestone-project-1)
-
-Table of Contents
-
-****INSERT CONTENTS HERE******
 
 Here is a mock-up image of the Hogwarts website, using the "Am I Responsive" site.
 
@@ -18,7 +14,7 @@ Here is a mock-up image of the Hogwarts website, using the "Am I Responsive" sit
 
 The design process started with some sketches of the website for mobile screens. Sketches were initially made on the Goodnotes App on the iPad.
 
-![screenshot](documentation/homepagesketch.jpeg) ![screenshot](documentation/infopage.jpeg)  ![screenshot](documentation/signupsketch.jpeg)
+![screenshot](documentation/homepagesketch.jpeg) ![screenshot](documentation/infopage.png)  ![screenshot](documentation/signupsketch.jpeg)
 
 ### Colour Scheme
 
@@ -26,26 +22,26 @@ The inspiration for the colours and colour scheme for the website was based on t
 
 The colours of the Great hall include browns, which represent the interior and the long house benches that pupils eat their meals by; golds, which represent drinking goblets and other other tableware, and wand-light.
 
-- Brown: #333
-- Dark Gold: #b8860b
-- Gold (for logo): #b59254
-- Bright Gold: #daa520
-- Yellow Glow: #fdec6e
+- Brown: `#333`
+- Dark Gold: `#b8860b`
+- Gold (for logo): `#b59254`
+- Bright Gold: `#daa520`
+- Yellow Glow: `#fdec6e`
 
 Adobe Color was used to create the colour palette [https://color.adobe.com/create/color-wheel].
 
 ![screenshot](documentation/colourpalette.png)
 
-- #333 used for primary text on light background
-- #b8860b used for text on dark background
-- #b59254 used for Hogwarts logo
-- #daa520 and #fdec6e used for on hover glow highlighting
+- `#333` used for primary text on light background
+- `#b8860b` used for text on dark background
+- `#b59254` used for Hogwarts logo
+- `#daa520` and #fdec6e used for on hover glow highlighting
 
 The house colours (used mainly on the flip cards on the 'home page') are as follows:
-- Griffindor - Maroon (#800000) and gold (#fad700)
-- Ravenclaw - Dark blue (#000080) and bronze (#c97d36)
-- Hufflepuff - Yellow (#eed813) and black (#000000)
-- Slytherin - Green (#006400) and silver (#c0c0c0)
+- Griffindor - Maroon (`#800000`) and gold (`#fad700`)
+- Ravenclaw - Dark blue (`#000080`) and bronze (`#c97d36`)
+- Hufflepuff - Yellow (`#eed813`) and black (`#000000`)
+- Slytherin - Green (`#006400`) and silver (`#c0c0c0`)
 
 ### Typography
 
