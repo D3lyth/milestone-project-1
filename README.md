@@ -57,13 +57,13 @@ Some other parts of the text used the Google Font 'Roboto'. This is also a sans-
 
 The last Google Fonts used was 'Licorice' - this is seen on the book labels on the carousel.This font was chosen again for its handwritten look, with cursive being the fallback font.
 
-- Th standard 'cursive' font was used for the font in the logo - although other fonts were trialled, the cursive font looked the most suitable.
+- The standard 'cursive' font was used for the font in the logo - although other fonts were trialled, the cursive font looked the most suitable.
 
 - [Princess Sofia](https://fonts.google.com/specimen/Princess+Sofia) was used for the primary headers and titles. The fallback font was 'cursive'.
 
 - [Quicksand](https://fonts.google.com/specimen/Quicksand) was used for all other secondary text for its readability. The fallback font used was 'sans-serif'.
 
--- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all text that needed to stand out a bit. The fallback font used was 'sans-serif'.
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all text that needed to stand out a bit. The fallback font used was 'sans-serif'.
 
 - [Licorice](https://fonts.google.com/specimen/Licorice) was used for small detailing on the book labels found on the carousel. The fallback font was 'cursive'.
 
@@ -105,11 +105,6 @@ In this section, list all of your user stories for the project.
 
 After the initial sketch, and to follow best practice, Balsamiq [Balsamiq](https://balsamiq.com/wireframes) was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
 
-🟢In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html🟢
-
-
-
 ### Home Page Wireframes
 
 | Size | Screenshot |
@@ -133,10 +128,6 @@ Instructions on how to do Markdown `tables` start on line #213 on this site: htt
 | Mobile | ![screenshot](documentation/wireframes/clubs-mobile.png) |
 | Tablet | ![screenshot](documentation/wireframes/clubs-tablet.png) |
 | Desktop | ![screenshot](documentation/wireframes/clubs-desktop.png) |
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Features
 
@@ -181,36 +172,18 @@ Repeat as necessary for as many features as your site contains.
 
 Hint: the more, the merrier!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+The website ciuld be further expanded in many ways.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+- Uniform Feature
+    - A carousel showcasing the school uniform, or even a possibility to be able to order a uniform could be included on a future version of the site.
+- Virtual Tour Feature
+    - A video of a tour of the school could be placed on the information page, or a tour of the various common rooms could be included. To make it more authentic, a password protected area could be set up so that only memebers of certain houses will be able to access.
+- Further Information
+    - More information could be included regarding staff members, classes, example timetables, subject options, careers advice, floor plan of the castle and term times could be included. 
 
 ## Tools & Technologies Used
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
@@ -222,7 +195,6 @@ Feel free to delete any unused items below as necessary.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-
 
 ## Testing
 
@@ -307,12 +279,7 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Media
 
@@ -344,15 +311,9 @@ by sending yourself the following command: `!freemedia`.
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project - his feedback and encouragement has been invaluable.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my husband (Rob), for believing in me, and allowing me to make this transition into software development and for testing out the website over and over again.
+- I would like to thank Nathan Parry, our cohort lead at Code Institute for his continuous encouragement, offers of help and assistance with troubleshooting various aspects of the project.
+- I would like to thank Iris Smok, our Cohort Facilitator for her continued support, the weekly stand-up updates and for keeping me on track.
