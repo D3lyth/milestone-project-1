@@ -131,6 +131,7 @@ body {
     .signature {
       font-family: 'Princess Sofia', cursive;
       float:right;
+      font-size: 26px;
     }
     .dumbledore-address {
       display: block;
@@ -164,9 +165,10 @@ body {
   }
   
     .flip-card {
-      width: 300px;
-      height: 300px;
-      perspective: 1000px; 
+      max-width: 250px;
+      height: 250px;
+      margin: 0 auto;
+      
     }
     
     .flip-card-inner {
@@ -196,24 +198,32 @@ body {
       border: maroon solid 4px;
       background-color: maroon;
       color: gold;
+      font-family: 'Quicksand',sans-serif;
+    font-size: 13px;
     }
   
     #flip-card-ravenclaw {
       border: navy solid 4px;
       background-color: navy;
       color: rgb(201, 125, 54);
+      font-family: 'Quicksand',sans-serif;
+    font-size: 13px;
     }
   
     #flip-card-hufflepuff {
       border: rgb(238, 216, 19) solid 4px;
       background-color: rgb(238, 216, 19);
       color:black;
+      font-family: 'Quicksand',sans-serif;
+    font-size: 13px;
     }
   
     #flip-card-slytherin {
       border: darkgreen solid 4px;
       background-color: darkgreen;
       color:silver;
+      font-family: 'Quicksand',sans-serif;
+    font-size: 13px;
     }
   
     .flip-card-front img {
@@ -392,32 +402,170 @@ body {
       }
       
   /* Flip Card Responsiveness */
+
+  @media (max-width: 560px) {
+    .hogwartshouses {
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+    }
   
-  @media (max-width: 786px) {
+    .flip-card {
+      width: 250px;
+      margin: 2%;
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 561px) and (max-width: 992px) {
+    .hogwartshouses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    .flip-card {
+      width: 250px;
+      margin: 2%;
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 993px) {
+    .hogwartshouses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    .flip-card {
+      width: 250px;
+      margin: 2%;
+      height: 250px;
+    }
+  }
+  
+  /*@media (min-width:280px) and (max-width:560px) {
+    .hogwartshouses {
+      flex-direction: column;
+      align-items: center;
+      flex: 1;
+  }
+
+  .flip-card {
+    width: 220px;
+    margin: 2%;
+    max-width: 220px;
+      height: 220px;
+      margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width:561px) and (max-width:674px) {
+  .hogwartshouses {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+.flip-card {
+  /*width: 220px;
+  margin: 2%;
+  max-width: 220px;
+    height: 220px;
+    margin: 0 auto; 
+    width: 400px;
+    margin: 2%;
+    max-width: 220px;
+    flex-basis: calc(50% - 4%);
+    height: 220px;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (min-width:674px) and (max-width:992px) {
+  .hogwartshouses {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 2;
+}
+
+.flip-card {
+  width: 220px;
+    margin: 2%;
+    max-width: 220px;
+    flex-basis: calc(50% - 4%);
+    height: 220px;
+    margin: 0 auto;
+  /*width: 220px;
+  margin: 2%;
+  max-width: 220px;
+    height: 220px;
+    margin: 0 auto; 
+}
+}
+
+@media (min-width:992px) and (max-width:2000px) {
+  .hogwartshouses {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.flip-card {
+  width: 220px;
+  margin: 2%;
+  max-width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+}
+  /*@media (min-width: 560px) and (max-width: 1200px) {
   
     .hogwartshouses {
       flex-direction: column;
       align-items: center;
+      flex: 2;
     }
   }
   
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+ /* @media only screen and (min-width: 300px) and (max-width: 1600px) {
     .hogwartshouses {
       flex-wrap: wrap;
       justify-content: center;
     }
     .flip-card {
       width: calc(50% - 20px);
-      margin: 10px;
+      margin: 2%;
     }
   }
-  
+*/
+/*
+  @media only screen and (min-width: 400px) and (max-width: 1600px) {
+    .hogwartshouses {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .flip-card {
+      width: calc(50% - 20px);
+      margin: 2%;
+    }
+  }
+  */
+  /*
     @media (max-width: 600px) {
       .flip-card-back {
         font-size: 12px;
         padding: 10px;
       }
-    }
+    }  
+  
   
     /* Burger Button Styling for mobile navbar */
 
