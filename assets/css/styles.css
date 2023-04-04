@@ -5,663 +5,684 @@ body {
 
 /* Nav Bar Styling */
 /* LOGO AND NAME */
-.navbar, .bg-body-tertiary {
+.navbar,
+.bg-body-tertiary {
   padding: 0;
-  }
-  
-  .navbar-brand {
-      float: left;
-      color: darkgoldenrod;
-      font-family: cursive;
-      background-color: #333;
-      margin: 0;
-      font-size: 25px;
-  }
-  
-  .navbar-brand:hover {
-      color: goldenrod;
-  }
-  #hogwartscrest {
-      padding: 2px;
-  }
-  .container-fluid {
-      background-color: #333;
-  }
-  
-  .navbar-brand:focus {
-    color: goldenrod;
-  text-shadow:0px 0px 30px #fdec6e;
+}
+
+.navbar-brand {
+  float: left;
+  color: darkgoldenrod;
+  font-family: cursive;
+  background-color: #333;
+  margin: 0;
+  font-size: 25px;
+}
+
+.navbar-brand:hover {
+  color: goldenrod;
+}
+
+#hogwartscrest {
+  padding: 2px;
+}
+
+.container-fluid {
+  background-color: #333;
+}
+
+.navbar-brand:focus {
+  color: goldenrod;
+  text-shadow: 0px 0px 30px #fdec6e;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in; 
+  transition: all 0.2s ease-in;
+}
+
+/* Anchor Links */
+#menu {
+  padding-top: 1rem;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  display: inline;
+  justify-content: center;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline;
+  padding: auto;
+
+}
+
+/* Hero Image Section - Hogwarts Castle */
+
+.welcome {
+  position: relative;
+  margin: 0;
+  height: 33%
+}
+
+.hogwarts-castle {
+  margin: 0;
+  padding-top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Dumbledore's Address Section */
+
+h1,
+#welcometitle {
+  font-family: 'Princess Sofia', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.bottomhalf {
+  background-image: url('../images/parchment.jpeg');
+}
+
+.headmasterwelcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+#headmaster {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headmasterwelcomepic {
+  flex: 1;
+  margin: 10px;
+}
+
+.headmasterwelcomespeech {
+  flex: 2;
+  padding: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.welcomespeechtitle {
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  margin-top: 0;
+}
+
+.welcomespeech {
+  flex: 1;
+  color: #333;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+.signature {
+  font-family: 'Princess Sofia', cursive;
+  float: right;
+  font-size: 26px;
+}
+
+.dumbledore-address {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.housetitle {
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 5%;
+  font-size: 35px;
+}
+
+.housesinfo {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 18px;
+}
+
+/* Flip Cards Section - Houses Crests and Information */
+
+.hogwartshouses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+
+.flip-card {
+  max-width: 250px;
+  height: 250px;
+  margin: 0 auto;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 5%;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  box-shadow: 0 0 20px #333;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 5%;
+}
+
+#flip-card-griffindor {
+  border: maroon solid 4px;
+  background-color: maroon;
+  color: gold;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+#flip-card-ravenclaw {
+  border: navy solid 4px;
+  background-color: navy;
+  color: rgb(201, 125, 54);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+#flip-card-hufflepuff {
+  border: rgb(238, 216, 19) solid 4px;
+  background-color: rgb(238, 216, 19);
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+#flip-card-slytherin {
+  border: darkgreen solid 4px;
+  background-color: darkgreen;
+  color: silver;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  border-radius: 5%;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FOOTER STYLING */
+
+.social-networks {
+  padding: 10px;
+  margin: 0px;
+  height: 80px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+i {
+  color: darkgoldenrod;
+  font-size: 40px;
+}
+
+i:hover {
+  color: goldenrod;
+  transform: scale(1.5);
+  text-shadow: 0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/*Responsiveness */
+
+/* Nav Bar Responsiveness */
+
+@media (min-width: 768px) {
+
+  /* Show on screens larger than or equal to 768px */
+  .navbar-brand .fulltitle {
+    display: inline-block;
   }
-  
-  /* Anchor Links */
+}
+
+@media (max-width: 767px) {
+
+  .navbar,
+  .bg-body-tertiary {
+    padding: 0;
+  }
+
+  .navbar-brand .fulltitle {
+    /* Hide on screens smaller than 768px */
+    display: none;
+  }
+
+  .navbar-brand {
+    float: none;
+    color: rgb(181, 146, 84);
+    font-family: 'Allure', cursive;
+    background-color: #333;
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .container-fluid {
+    background-color: #333;
+    padding: 0.5rem;
+  }
+
   #menu {
-      padding-top: 1rem;
+    margin: 0;
+    padding-top: 0.5rem;
   }
-  
+
   ul li {
-     list-style-type: none;
-     font-size: 15px;
-     font-family: "Quicksand", sans-serif;
-     display: inline;
-     justify-content: center;
+    list-style-type: none;
+    display: inline;
+    color: rgb(181, 146, 84);
+    margin-right: 1rem;
   }
-  
-  
+
   a {
-      text-decoration: none;
-      display: inline;
-      padding: auto;
-      
+    list-style-type: none;
+    display: inline;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
   }
-  
-  /* Hero Image Section - Hogwarts Castle */
-  
-    .welcome {
-      position: relative;
-      margin: 0;
-      height: 33%
-    }
-    
-    .hogwarts-castle {
-      margin: 0;
-      padding-top: 0;
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
-  
-    /* Dumbledore's Address Section */
-  
-    h1,#welcometitle {
-      font-family: 'Princess Sofia', cursive;
-      font-size: 40px;
-      text-align: center;
-      margin-top:3%;
-    }
+}
 
-    .bottomhalf {
-      background-image: url('../images/parchment.jpeg');
-    }
-  
-    .headmasterwelcome {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      padding-top: 2%;
-      padding-bottom: 2%;
-    }
-    
-  
-    #headmaster {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-      .headmasterwelcomepic {
-          flex: 1;
-          margin: 10px;
-        }
-  
-      .headmasterwelcomespeech {
-      flex: 2;
-      padding: 10px;
-      color: #333;
-      font-size: 18px;
-    }
-    
-    .welcomespeechtitle {
-      font-family: 'Princess Sofia', cursive;
-      text-align: center;
-      margin-top: 0;
-    }
-    
-    .welcomespeech {
-      flex: 1;
-      color: #333;
-      padding: 1rem;
-      font-family: 'Roboto', sans-serif;
-      font-weight: bolder;
-    }
+@media (max-width: 992px) {
+  #menu {
+    display: none;
+  }
+}
 
-    .signature {
-      font-family: 'Princess Sofia', cursive;
-      float:right;
-      font-size: 26px;
-    }
-    .dumbledore-address {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      border-radius: 5%;
-    }
-    .housetitle {
-      color:#333;
-      font-family: 'Princess Sofia', cursive;
-      text-align: left;
-      padding-left:2%;
-      padding-right:5%;
-      font-size: 35px;
-    }
+@media (min-width: 992px) and (max-width: 1600px) {
+  #menu li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    justify-content: center;
+  }
 
-    .housesinfo {
-      font-family: 'Quicksand', sans-serif;
-      padding-left:2%;
-      padding-right:2%;
-      font-size: 18px;
-    }
-  
-    /* Flip Cards Section - Houses Crests and Information */
-  
-    .hogwartshouses {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding-bottom: 2%;  
+  #menu a {
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
   }
-  
-    .flip-card {
-      max-width: 250px;
-      height: 250px;
-      margin: 0 auto;
-      
-    }
-    
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-      border-radius: 5%;
-    }
-    
-    .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
-      box-shadow: 0 0 20px #333;
-    }
-    
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      backface-visibility: hidden;
-      border-radius: 5%;
-    }
-    
-    #flip-card-griffindor {
-      border: maroon solid 4px;
-      background-color: maroon;
-      color: gold;
-      font-family: 'Quicksand',sans-serif;
-    font-size: 13px;
-    }
-  
-    #flip-card-ravenclaw {
-      border: navy solid 4px;
-      background-color: navy;
-      color: rgb(201, 125, 54);
-      font-family: 'Quicksand',sans-serif;
-    font-size: 13px;
-    }
-  
-    #flip-card-hufflepuff {
-      border: rgb(238, 216, 19) solid 4px;
-      background-color: rgb(238, 216, 19);
-      color:black;
-      font-family: 'Quicksand',sans-serif;
-    font-size: 13px;
-    }
-  
-    #flip-card-slytherin {
-      border: darkgreen solid 4px;
-      background-color: darkgreen;
-      color:silver;
-      font-family: 'Quicksand',sans-serif;
-    font-size: 13px;
-    }
-  
-    .flip-card-front img {
-      width: 100%;
-      height: 100%;
-      border-radius: 5%;
-      object-fit: cover;
-    }
-    
-    .flip-card-back {
-      transform: rotateY(180deg);
-      border-radius: 5%;
-      font-size: 15px; 
-      line-height: 1.5;
-      padding: 5px;
-      box-sizing: border-box;
-      width: 100%; 
-      height: 100%; 
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    /* FOOTER STYLING */
-  
-  .social-networks {
-      padding: 10px;
-      margin: 0px;
-      height: 80px;
-      background-color: #333;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      list-style: none;
-  }
-  
-  i {
-      color:  darkgoldenrod;
-      font-size: 40px;
-  }
-  
-  i:hover {
-      color: goldenrod;
-      transform: scale(1.5);
-    text-shadow:0px 0px 30px #fdec6e;
+
+  #menu a:hover {
+    background-color: none;
+    color: goldenrod;
+    transform: scale(1.5);
+    text-shadow: 0px 0px 30px #fdec6e;
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
   }
-  
-  /*Responsiveness */
-  
-   /* Nav Bar Responsiveness */
-  
-   @media (min-width: 768px) { /* Show on screens larger than or equal to 768px */
-    .navbar-brand .fulltitle {
-      display: inline-block;
-    }
+
+  #menu .active {
+    text-decoration: underline;
+    color: goldenrod;
   }
-  
-   @media (max-width: 767px) {
-      .navbar, .bg-body-tertiary {
-        padding: 0;
-      }
-    
-      .navbar-brand .fulltitle { /* Hide on screens smaller than 768px */
-        display: none;
-      }
-      .navbar-brand {
-        float: none;
-        color: rgb(181, 146, 84);
-        font-family: 'Allure', cursive;
-        background-color: #333;
-        margin: 0;
-        font-size: 25px;
-      }
-    
-      .container-fluid {
-        background-color: #333;
-        padding: 0.5rem;
-      }
-    
-      #menu {
-        margin: 0;
-        padding-top: 0.5rem;
-      }
-    
-      ul li {
-        list-style-type: none;
-        display: inline;
-        color: rgb(181, 146, 84);
-        margin-right: 1rem;
-      }
-    
-      a {
-        list-style-type: none;
-        display: inline;
-        font-family: "Quicksand", sans-serif;
-        text-decoration: none;
-        font-size: 20px;
-      }
-   }
-  
-   @media (max-width: 992px) {
-    #menu {
-      display:none;
-    }
+}
+
+
+/* Headmaster's Address Section */
+
+@media screen and (max-width: 768px) {
+  #headmaster {
+    flex-direction: column;
   }
 
-   @media (min-width: 992px) and (max-width: 1600px){
-    #menu li {
-      display: inline-block;
-      margin-right: 20px;
-      font-size: 15px;
-      justify-content: center;
-    }
-    
-    #menu a {
-      color: darkgoldenrod;
-      text-transform: uppercase;
-      font-family: 'Quicksand', sans-serif;
-      letter-spacing: 1px;
-      padding: 10px;
-      border-radius: 5px;
-      transition: all 0.3s ease;
-    }
-  
-    #menu a:hover {
-      background-color: none;
-      color: goldenrod;
-      transform: scale(1.5);
-    text-shadow:0px 0px 30px #fdec6e;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    }
-  
-    #menu .active {
-      text-decoration: underline;
-      color: goldenrod;
-    }
+  .headmasterwelcome {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  
-  /* Headmaster's Address Section */
-  
-  @media screen and (max-width: 768px) {
-      #headmaster {
-        flex-direction: column;
-      }
-  
-      .headmasterwelcome {
-        flex-direction: column;
-      align-items: center;
-      }
-  
-      .headmasterwelcomespeech {
-        flex: 2;
-        font-size: 16px;
-        line-height: 1.5;
-        overflow-y: scroll;
-        width: 100vw;
-      }
-      }
-  
-      .headmasterwelcomepic {
-        margin: 0 auto;
-        width: 100vw;
-      }
-  
-      .welcomespeech {
-        
-        max-width: 100%;
-      }
-      
-  /* Flip Card Responsiveness */
 
-  @media (max-width: 560px) {
-    .hogwartshouses {
-      flex-direction: column;
-      align-items: center;
-      flex: 1;
-    }
-  
-    .flip-card {
-      width: 250px;
-      margin: 2%;
-      height: 250px;
-    }
+  .headmasterwelcomespeech {
+    flex: 2;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-y: scroll;
+    width: 100vw;
   }
-  
-  @media (min-width: 561px) and (max-width: 992px) {
-    .hogwartshouses {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-  
-    .flip-card {
-      width: 250px;
-      margin: 2%;
-      height: 250px;
-    }
+}
+
+.headmasterwelcomepic {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.welcomespeech {
+
+  max-width: 100%;
+}
+
+/* Flip Card Responsiveness */
+
+@media (max-width: 560px) {
+  .hogwartshouses {
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
   }
-  
-  @media (min-width: 993px) {
-    .hogwartshouses {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-    }
-  
-    .flip-card {
-      width: 250px;
-      margin: 2%;
-      height: 250px;
-    }
+
+  .flip-card {
+    width: 250px;
+    margin: 2%;
+    height: 250px;
   }
-  
-    /* Burger Button Styling for mobile navbar */
+}
+
+@media (min-width: 561px) and (max-width: 992px) {
+  .hogwartshouses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .flip-card {
+    width: 250px;
+    margin: 2%;
+    height: 250px;
+  }
+}
+
+@media (min-width: 993px) {
+  .hogwartshouses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .flip-card {
+    width: 250px;
+    margin: 2%;
+    height: 250px;
+  }
+}
+
+/* Burger Button Styling for mobile navbar */
 
 .dropdown {
   display: flex;
   float: right;
   justify-self: flex-end;
-  
-  }
-  
-  .btn-secondary {
-      --bs-btn-color: goldenrod;
-      --bs-btn-bg: #333;
-      --bs-btn-border-color: goldenrod;
-      --bs-btn-hover-color: gold;
-      --bs-btn-hover-bg: #333;
-      --bs-btn-hover-border-color: #333;
-      --bs-btn-active-color: yellow;
-      --bs-btn-active-bg:goldenrod;
-      --bs-btn-active-border-color: #333;
-      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  }
-  
-  .dropdown-menu {
-     
-      --bs-dropdown-color: goldenrod;
-      --bs-dropdown-bg: #333;
-      --bs-dropdown-link-color: goldenrod;
-      --bs-dropdown-link-hover-color: #333;
-      --bs-dropdown-link-hover-bg: darkgoldenrod;
-      --bs-dropdown-link-active-color: darkgoldenrod;
-      
-  }
-  
-  @media screen and (min-width: 992px) {
-  .dropdown {
-      display: none;
-  }
-  }
-  
-  /* Styling for Information Page elements */
 
-  .infopage {
-    color:#333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: left;
-    font-size: 40px;
-    padding-top: 3%;
+}
+
+.btn-secondary {
+  --bs-btn-color: goldenrod;
+  --bs-btn-bg: #333;
+  --bs-btn-border-color: goldenrod;
+  --bs-btn-hover-color: gold;
+  --bs-btn-hover-bg: #333;
+  --bs-btn-hover-border-color: #333;
+  --bs-btn-active-color: yellow;
+  --bs-btn-active-bg: goldenrod;
+  --bs-btn-active-border-color: #333;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.dropdown-menu {
+
+  --bs-dropdown-color: goldenrod;
+  --bs-dropdown-bg: #333;
+  --bs-dropdown-link-color: goldenrod;
+  --bs-dropdown-link-hover-color: #333;
+  --bs-dropdown-link-hover-bg: darkgoldenrod;
+  --bs-dropdown-link-active-color: darkgoldenrod;
+
+}
+
+@media screen and (min-width: 992px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+/* Styling for Information Page elements */
+
+.infopage {
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 2%;
-  }
- .infopagetext {
-  color:#333;
+}
+
+.infopagetext {
+  color: #333;
   font-family: 'Quicksand', sans-serif;
-      padding-left:2%;
-      padding-right:2%;
-      font-size: 18px;
- }
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 18px;
+}
 
-  .hogwartsbooksinfotexttop, .otherbooks, .hogwartsbooksinfotextbottom {
-    color:#333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: center;
-    padding-left:5%;
-    padding-right:5%;
-    font-size: 25px;
-  }
+.hogwartsbooksinfotexttop,
+.otherbooks,
+.hogwartsbooksinfotextbottom {
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 25px;
+}
 
-  .hogwartsbooksinfo, .bookcarousel {
-    background-image: url('/assets/images/parchment.jpeg');
-  }
+.hogwartsbooksinfo,
+.bookcarousel {
+  background-image: url('/assets/images/parchment.jpeg');
+}
 
-  .hogwartsbooksinfotexttop {
-    margin-top:8%;
-  }
+.hogwartsbooksinfotexttop {
+  margin-top: 8%;
+}
 
-  .hogwartsbooksinfotextbottom {
-    margin-top:1%;
-  }
+.hogwartsbooksinfotextbottom {
+  margin-top: 1%;
+}
 
-  .otherbooks {
-    margin-top:1%;
-  }
+.otherbooks {
+  margin-top: 1%;
+}
 
-  .hogwartsbooks {
-    letter-spacing: 2px;
-    color:#333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: left;
-    font-size: 35px;
-    padding: 2%;
-  }
+.hogwartsbooks {
+  letter-spacing: 2px;
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: left;
+  font-size: 35px;
+  padding: 2%;
+}
 
-  .coretext {
-    color:#333;
-    font-family: 'quicksand', sans-serif;
-    text-align: center;
-    font-size: 17px;
-    list-style: none;
-  }
-   .first-yearbooks, .second-yearbooks, .third-yearbooks, .fourth-yearbooks, .fifth-yearbooks, .sixth-yearbooks, .seventh-yearbooks {
-    color:#333;
-    font-family: 'quicksand', sans-serif;
-    text-align: center;
-    font-size: 14px;
-    list-style: none;
-  }
+.coretext {
+  color: #333;
+  font-family: 'quicksand', sans-serif;
+  text-align: center;
+  font-size: 17px;
+  list-style: none;
+}
 
-  .schoolyear {
-    color:#333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: center;
-    font-size: 20px;
-  }
+.first-yearbooks,
+.second-yearbooks,
+.third-yearbooks,
+.fourth-yearbooks,
+.fifth-yearbooks,
+.sixth-yearbooks,
+.seventh-yearbooks {
+  color: #333;
+  font-family: 'quicksand', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  list-style: none;
+}
 
-  /*Styling for the Book Carousel Starts here */
+.schoolyear {
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*Styling for the Book Carousel Starts here */
 
 .book-card {
-    width: 18rem;
-    height: 25rem;
-    margin: auto;
-    display: flex;
+  width: 18rem;
+  height: 25rem;
+  margin: auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  }
+}
 
-  .card {
-    background-color: #333;
-    box-shadow: 5px 5px 50px #fdec6e;
-  }
-  
-  .card-img-top {
-    object-fit: contain; 
-    height: 20rem;
-    margin-top: 5%;
-  }
-  
-  .card-text {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    text-overflow: clip;
-    width: 100%;
-    color: #333;
-    padding: 0.5%;
-    font-size: 12px;
-    background-color: goldenrod;
-    border: solid 2px darkgoldenrod;
-    margin-bottom: 15%;
-  }
+.card {
+  background-color: #333;
+  box-shadow: 5px 5px 50px #fdec6e;
+}
 
-  .author {
-    font-family: 'Licorice', cursive;
-  }
+.card-img-top {
+  object-fit: contain;
+  height: 20rem;
+  margin-top: 5%;
+}
 
-  .card-body {
-    width: 70%;
-    object-fit: contain;
-    padding:5px;
-  }
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-overflow: clip;
+  width: 100%;
+  color: #333;
+  padding: 0.5%;
+  font-size: 12px;
+  background-color: goldenrod;
+  border: solid 2px darkgoldenrod;
+  margin-bottom: 15%;
+}
+
+.author {
+  font-family: 'Licorice', cursive;
+}
+
+.card-body {
+  width: 70%;
+  object-fit: contain;
+  padding: 5px;
+}
 
 .carousel-inner {
-    overflow: visible;
+  overflow: visible;
 }
 
 /*Carousel Indicator Styling */
 
-  #carouselExampleIndicators {
-    position: relative;
-  }
-  
-  button {
-    background-color: darkgoldenrod;
-  }
-  .carousel-indicators {
-    position: relative;
-    top: 460px; 
-    background-color: transparent;
-  }
-  
-  .carousel-indicators [data-bs-target] {
-    background-color: #333;
-
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    bottom: -3rem;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    bottom: -3rem;
-  }
-
-  /* Sign up page styling */
-
-  #form-section {
-    background-color: rgba(184, 134, 11, 0.5);
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right:3%;
-    margin-bottom:3%;
-    padding: 3%;
-    border-radius: 5%;
-  }
-
-  #signuptitle { /* Styling of title on signup page */
-    color: #333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: left;
-    font-size: 40px;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 2%;
+#carouselExampleIndicators {
+  position: relative;
 }
 
-#signupintro{
+.carousel-indicators {
+  position: relative;
+  top: 460px;
+  background-color: transparent;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #333;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  bottom: -3rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  bottom: -3rem;
+}
+
+/* Sign up page styling */
+
+#form-section {
+  background-color: rgba(184, 134, 11, 0.5);
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+#signuptitle {
+  /* Styling of title on signup page */
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+}
+
+#signupintro {
   color: #333;
   font-family: 'Quicksand', sans-serif;
   padding-left: 2%;
@@ -671,36 +692,37 @@ body {
 
 h3 {
   color: #333;
-    font-family: 'Princess Sofia', cursive;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    padding-left: 2%;
+  font-family: 'Princess Sofia', cursive;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 2%;
 }
 
 .hogsmede {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-    line-height: 1.2;
-    color: #333;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif !important;
+  line-height: 1.2;
+  color: #333;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
-.personalinfo .hohdropdown, .yeardropdown {
+.personalinfo .hohdropdown,
+.yeardropdown {
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
 .labelname {
-    color: #333;
-    font-family: 'Princess Sofia', cursive;
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
 }
 
 #clubs {
-color: #333;
-    font-family: 'Princess Sofia', cursive;
+  color: #333;
+  font-family: 'Princess Sofia', cursive;
 }
 
 #option1 {
@@ -719,12 +741,12 @@ color: #333;
 
 #signupbutton:hover {
   color: goldenrod;
-      transform: scale(1.2);
-    text-shadow:0px 0px 30px #fdec6e;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+  transform: scale(1.2);
+  text-shadow: 0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 
@@ -753,7 +775,7 @@ section#subutton {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:16%;
+  padding: 16%;
 }
 
 #returnlink {
@@ -763,19 +785,19 @@ section#subutton {
 }
 
 #return {
-text-align: center;
-margin-bottom: 5%;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 #returnlink:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 #return:hover {
-    transform: scale(1.2);
-    text-shadow:0px 0px 30px #fdec6e;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+  transform: scale(1.2);
+  text-shadow: 0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
