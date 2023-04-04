@@ -65,7 +65,7 @@
   <!-- Beginning of Sign up form-->
   <section class="completeform">
     <section id="form-section">
-      <form method="POST" action="_blank" class="signup-form">
+      <form action="signupcomplete.html" id="form-selection">
 
         <section class="personalinfo">
           <label class="labelname" for="fname" id="fname">First Name:</label>
@@ -85,87 +85,77 @@
         </section>
 
         <section class="yeardropdown">
-          <form class="yeardropdown">
-            <label class="form__label labelname" for="year">Year: </label>
-            <select type="text" id="year" name="year">
-              <option value="">--Please choose an option--</option>
-              <option value="year1">Year 1</option>
-              <option value="year2">Year 2</option>
-              <option value="year3">Year 3</option>
-              <option value="year4">Year 4</option>
-              <option value="year5">Year 5</option>
-              <option value="year6">Year 6</option>
-              <option value="year7">Year 7</option>
-            </select>
-          </form>
+          <label class="form__label labelname" for="year">Year: </label>
+          <select type="text" id="year" name="year">
+            <option value="">--Please choose an option--</option>
+            <option value="year1">Year 1</option>
+            <option value="year2">Year 2</option>
+            <option value="year3">Year 3</option>
+            <option value="year4">Year 4</option>
+            <option value="year5">Year 5</option>
+            <option value="year6">Year 6</option>
+            <option value="year7">Year 7</option>
+          </select>
           <br>
         </section>
 
-        <section>
-          <form class="hohdropdown">
-            <label class="form__label labelname" for="hoh">Head of House: </label>
-            <select type="text" id="hoh" name="hoh">
-              <option value="">--Please choose an option--</option>
-              <option value="hoh1">Professor McGonagall</option>
-              <option value="hoh2">Professor Flitwick</option>
-              <option value="hoh3">Professor Sprout</option>
-              <option value="hoh4">Professor Snape</option>
-            </select>
-          </form>
+        <section class="hohdropdown">
+          <label class="form__label labelname" for="hoh">Head of House: </label>
+          <select type="text" id="hoh" name="hoh">
+            <option value="">--Please choose an option--</option>
+            <option value="hoh1">Professor McGonagall</option>
+            <option value="hoh2">Professor Flitwick</option>
+            <option value="hoh3">Professor Sprout</option>
+            <option value="hoh4">Professor Snape</option>
+          </select>
           <br>
         </section>
 
-        <section>
-          <form class="clubselection"> <label id="clubs" for="clubs">Please select the clubs that interest you. <span
-                class="choice">(Choose all that may apply.)</span></label><br>
-            <input type="checkbox" id="option1" name="option1" value="option1">
-            <label for="option1">Quidditch (Year 2 and up)</label><br>
-            <input type="checkbox" id="option2" name="option2" value="option2">
-            <label for="option2">Wizard Chess Club</label><br>
-            <input type="checkbox" id="option3" name="option3" value="option3">
-            <label for="option3">Frog Choir</label><br>
-            <input type="checkbox" id="option4" name="option4" value="option4">
-            <label for="option4">Gobstones Club</label><br>
-            <input type="checkbox" id="option5" name="option5" value="option5">
-            <label for="option5">Astronomy Club</label><br>
-            <input type="checkbox" id="option6" name="option6" value="option6">
-            <label for="option6">Potions Club</label><br>
-            <input type="checkbox" id="option7" name="option7" value="option7">
-            <label for="option7">Chudley Cannons Fan Club</label><br>
-            <input type="checkbox" id="option8" name="option8" value="option8">
-            <label for="option8">Duelling Club</label><br>
-            <input type="checkbox" id="option9" name="option9" value="option9">
-            <label for="option9">S.P.E.W.</label><br>
-            <input type="checkbox" id="option10" name="option10" value="option10">
-            <label for="option10">Chocolate Frog Card-Swap Club</label><br>
-          </form>
+        <section class="clubselection"> <label id="clubs" for="clubs">Please select the clubs that interest you. <span
+              class="choice">(Choose all that may apply.)</span></label><br>
+          <input type="checkbox" id="option1" name="option1" value="option1">
+          <label for="option1">Quidditch (Year 2 and up)</label><br>
+          <input type="checkbox" id="option2" name="option2" value="option2">
+          <label for="option2">Wizard Chess Club</label><br>
+          <input type="checkbox" id="option3" name="option3" value="option3">
+          <label for="option3">Frog Choir</label><br>
+          <input type="checkbox" id="option4" name="option4" value="option4">
+          <label for="option4">Gobstones Club</label><br>
+          <input type="checkbox" id="option5" name="option5" value="option5">
+          <label for="option5">Astronomy Club</label><br>
+          <input type="checkbox" id="option6" name="option6" value="option6">
+          <label for="option6">Potions Club</label><br>
+          <input type="checkbox" id="option7" name="option7" value="option7">
+          <label for="option7">Chudley Cannons Fan Club</label><br>
+          <input type="checkbox" id="option8" name="option8" value="option8">
+          <label for="option8">Duelling Club</label><br>
+          <input type="checkbox" id="option9" name="option9" value="option9">
+          <label for="option9">S.P.E.W.</label><br>
+          <input type="checkbox" id="option10" name="option10" value="option10">
+          <label for="option10">Chocolate Frog Card-Swap Club</label><br>
         </section>
 
         <section class="hogsmedesignup">
-          <form class="hogsmede">The following part of the form is to indicate whether your child has permission to
+          <p class="hogsmede">The following part of the form is to indicate whether your child has permission to
             attend Hogsmede Village during weekends.
             Please read the following and select the aption that applies. <span id="slip">(For students in Year 3 or
-              above.)</span><br>
-            <p id="permissionliptext">After careful consideration, as the parent or guardian of the student named above,
-              I
-              <span>
-                <form class="permission">
-                  <select type="text" id="permissionslip" name="permissionslip">
-                    <option value="">--Please choose an option--</option>
-                    <option value="yes">do</option>
-                    <option value="no">do not</option>
-                  </select>
-                </form>
-              </span> give permission to visit Hogsmede on weekends and take full responsibility for this decision.
-            </p>
-          </form>
+              above.)</span><br></p>
+          <p id="permissionliptext">After careful consideration, as the parent or guardian of the student named above,
+            I
+            <span class="permission">
+              <select type="text" id="permissionslip" name="permissionslip">
+                <option value="">--Please choose an option--</option>
+                <option value="yes">do</option>
+                <option value="no">do not</option>
+              </select>
+            </span> give permission to visit Hogsmede on weekends and take full responsibility for this decision.
+          </p>
         </section>
 
-        <section id="subutton">
-          <form action="signupcomplete.html">
-            <input id="signupbutton" type="submit" value="Submit">
-          </form>
+        <section id="subutton" action="signupcomplete.html">
+          <input id="signupbutton" type="submit" value="Submit">
         </section>
+
       </form>
     </section>
   </section>
