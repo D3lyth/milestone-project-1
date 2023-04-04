@@ -103,38 +103,36 @@ In this section, list all of your user stories for the project.
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-After the initial sketch, and to follow best practice, Balsamiq [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
+After the initial sketch, and to follow best practice, Balsamiq [Balsamiq](https://balsamiq.com/wireframes) was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
 
 🟢In this section, display your wireframe screenshots using a Markdown `table`.
 Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html🟢
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
 
 ### Home Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | ![screenshot](documentation/wireframes/home-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/home-tablet.png) |
+| Desktop | ![screenshot](documentation/wireframes/home-desktop.png) |
 
 ### Information Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-info.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-info.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-info.png) |
+| Mobile | ![screenshot](documentation/wireframes/info-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/info-tablet.png) |
+| Desktop | ![screenshot](documentation/wireframes/info-desktop.png) |
 
 ### Clubs Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-clubs.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-clubs.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-clubs.png) |
+| Mobile | ![screenshot](documentation/wireframes/clubs-mobile.png) |
+| Tablet | ![screenshot](documentation/wireframes/clubs-tablet.png) |
+| Desktop | ![screenshot](documentation/wireframes/clubs-desktop.png) |
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
