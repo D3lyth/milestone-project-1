@@ -1,219 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=EB+Garamond&family=Licorice&family=Montserrat:wght@100&family=Petit+Formal+Script&family=Princess+Sofia&family=Quicksand:wght@300&family=Roboto:wght@100&family=WindSong&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/2091d974dc.js" crossorigin="anonymous"></script>        
-<title>Milestone Project 1 - Hogwarts</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=EB+Garamond&family=Licorice&family=Montserrat:wght@100&family=Petit+Formal+Script&family=Princess+Sofia&family=Quicksand:wght@300&family=Roboto:wght@100&family=WindSong&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2091d974dc.js" crossorigin="anonymous"></script>
+  <title>Milestone Project 1 - Hogwarts</title>
 </head>
+
 <body>
-    <header id="nav-links">
-        <!-- Nav Bar-->
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="assets/images/hogwartscrest.png" id="hogwartscrest" alt="logo" width="60" height="70" class="d-inline-block align-text-center" "img-fluid"="">
-                Hogwarts <span class="fulltitle">School of Witchcraft and Wizardry</span>
-            </a>
-              <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="information.html" class="active">Information</a>
-                </li>
-            
-                <li>
-                    <a href="clubs.html">Clubs</a>
-                </li>
-            </ul>
-            <!--Burger Button -->
-            <div class="dropdown">
-              <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-bars" style="color: #dbbe51;"></i>
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="index.html">Home</a></li>
-                <li><a class="dropdown-item" href="information.html">Information</a></li>
-                <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
-              </ul>
+  <header id="nav-links">
+    <!-- Nav Bar-->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/hogwartscrest.png" id="hogwartscrest" alt="logo" width="60" height="70"
+            class="d-inline-block align-text-center" "img-fluid"="">
+          Hogwarts <span class="fulltitle">School of Witchcraft and Wizardry</span>
+        </a>
+        <ul id="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="information.html" class="active">Information</a>
+          </li>
+
+          <li>
+            <a href="clubs.html">Clubs</a>
+          </li>
+        </ul>
+        <!--Burger Button -->
+        <div class="dropdown">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars" style="color: #dbbe51;"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+            <li><a class="dropdown-item" href="information.html">Information</a></li>
+            <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Book Info and Carousel-->
+  <section class="bookcarousel">
+    <h1 class="infopage">Important Information <span class="fullinfotitle">for Hogwarts Students</span></h1>
+    <p class="infopagetext">Below, students and parents can find some important information regarding Hogwarts School of
+      Witchcraft and Wizardry.
+      Below is a wealth of information regarding the curriculum. This page includes the booklists - core and year
+      specific books required throuout your
+      time here at Hogwarts. All books are available to buy at Florish and Blotts on Diagon Alley, London.
+    </p>
+    <h2 class="hogwartsbooks">Book Lists</h2>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/hisofmagic.png" class="card-img-top" alt="History of magic book cover">
+            <div class="card-body">
+              <p class="card-text">History of Magic <br><span class="author">by Bathilda Bagshot</span></p>
             </div>
-            </div> 
-          </nav>
-        </header>
-        
-        <!--Book Info and Carousel-->
-<section class="bookcarousel">
-  <h1 class="infopage">Important Information <span class="fullinfotitle">for Hogwarts Students</span></h1>
-  <p class ="infopagetext">Below, students and parents can find some important information regarding Hogwarts School of Witchcraft and Wizardry.
-    Below is a wealth of information regarding the curriculum. This page includes the booklists - core and year specific books required throuout your
-    time here at Hogwarts. All books are available to buy at Florish and Blotts on Diagon Alley, London.
-  </p>
-  <h2 class="hogwartsbooks">Book Lists</h2>
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-  </div>
-
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/hisofmagic.png" class="card-img-top" alt="History of magic book cover">
-        <div class="card-body">
-          <p class="card-text">History of Magic <br><span class="author">by Bathilda Bagshot</span></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/advancedtransfiguration.jpeg" class="card-img-top"
+              alt="Advanced transfiguration book cover">
+            <div class="card-body">
+              <p class="card-text">Advanced Transfiguration<br><span class="author">by Emeric Switch</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/advancedpotions.png" class="card-img-top" alt="Advanced potion making book cover">
+            <div class="card-body">
+              <p class="card-text">Advanced Potion Making<br><span class="author">by Libatius Borage</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/divination.jpeg" class="card-img-top" alt="Unfogging the future book cover">
+            <div class="card-body">
+              <p class="card-text">Unfogging the Future<br><span class="author">by Cassandra Vablatsky</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/fantasticbeasts.jpeg" class="card-img-top" alt="Fantastic beasts book cover">
+            <div class="card-body">
+              <p class="card-text">Fantastic Beasts and Where to Find Them<br><span class="author">by Newt
+                  Scamander</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card book-card" style="width: 18rem;">
+            <img src="assets/images/spells.png" class="card-img-top" alt="Book of spells book cover">
+            <div class="card-body">
+              <p class="card-text">The Standard Book of Spells<br><span class="author">by Miranda Goshawk</span></p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/advancedtransfiguration.jpeg" class="card-img-top" alt="Advanced transfiguration book cover">
-        <div class="card-body">
-          <p class="card-text">Advanced Transfiguration<br><span class="author">by Emeric Switch</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/advancedpotions.png" class="card-img-top" alt="Advanced potion making book cover">
-        <div class="card-body">
-          <p class="card-text">Advanced Potion Making<br><span class="author">by Libatius Borage</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/divination.jpeg" class="card-img-top" alt="Unfogging the future book cover">
-        <div class="card-body">
-          <p class="card-text">Unfogging the Future<br><span class="author">by Cassandra Vablatsky</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/fantasticbeasts.jpeg" class="card-img-top" alt="Fantastic beasts book cover">
-        <div class="card-body">
-          <p class="card-text">Fantastic Beasts and Where to Find Them<br><span class="author">by Newt Scamander</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="card book-card" style="width: 18rem;">
-        <img src="assets/images/spells.png" class="card-img-top" alt="Book of spells book cover">
-        <div class="card-body">
-          <p class="card-text">The Standard Book of Spells<br><span class="author">by Miranda Goshawk</span></p>
-        </div>
-      </div>
-    </div>
-  </div>
 
- <!--Scroll buttons-->
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</section>
+      <!--Scroll buttons-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
-<section class="hogwartsbooksinfo">
-<p class="hogwartsbooksinfotexttop">
-  Student are required to purchase the correct books for their studies. The core textbooks needed throughout your time here at Hogwarts are as follows:</p>
- <ol class="coretext">
-  <li>The Standard Book of Spells (one for each grade) by Miranda Goshawk</li>
-  <li>A History of Magic by Bathilda Bagshot</li>
-  <li>Magical Theory by Adalbert Waffling</li>
-</ol>
-<br>
-<p class="otherbooks">As well as the core textbooks, below gives an outline of year-specific textbooks that are required:</p>
-<br>
-<h4 class="schoolyear">First Year:</h4>
-<ol class="first-yearbooks">
-<li>A Beginner's Guide to Transfiguration by Emeric Switch</li>
-<li>One Thousand Magical Herbs and Fungi by Phyllida Spore</li>
-<li>Fantastic Beasts and Where to Find Them by Newt Scamander</li>
-</ol>
-<br>
+  <section class="hogwartsbooksinfo">
+    <p class="hogwartsbooksinfotexttop">
+      Student are required to purchase the correct books for their studies. The core textbooks needed throughout your
+      time here at Hogwarts are as follows:</p>
+    <ol class="coretext">
+      <li>The Standard Book of Spells (one for each grade) by Miranda Goshawk</li>
+      <li>A History of Magic by Bathilda Bagshot</li>
+      <li>Magical Theory by Adalbert Waffling</li>
+    </ol>
+    <br>
+    <p class="otherbooks">As well as the core textbooks, below gives an outline of year-specific textbooks that are
+      required:</p>
+    <br>
+    <h4 class="schoolyear">First Year:</h4>
+    <ol class="first-yearbooks">
+      <li>A Beginner's Guide to Transfiguration by Emeric Switch</li>
+      <li>One Thousand Magical Herbs and Fungi by Phyllida Spore</li>
+      <li>Fantastic Beasts and Where to Find Them by Newt Scamander</li>
+    </ol>
+    <br>
 
-<h4 class="schoolyear">Second Year:</h4>
-<ol class="second-yearbooks">
-<li>Intermediate Transfiguration by Emeric Switch</li>
-<li>Magical Drafts and Potions by Arsenius Jigger</li>
-<li>The Dark Forces: A Guide to Self-Protection by Quentin Trimble</li>
-</ol>
-<br>
+    <h4 class="schoolyear">Second Year:</h4>
+    <ol class="second-yearbooks">
+      <li>Intermediate Transfiguration by Emeric Switch</li>
+      <li>Magical Drafts and Potions by Arsenius Jigger</li>
+      <li>The Dark Forces: A Guide to Self-Protection by Quentin Trimble</li>
+    </ol>
+    <br>
 
-<h4 class="schoolyear">Third Year:</h4>
-<ol class="third-yearbooks">
-<li>Transfiguration by Emeric Switch</li> 
-<li>The Monster Book of Monsters by Edwardus Lima</li>
-<li>Unfogging the Future by Cassandra Vablatsky</li>
-</ol>
-<br>
-<h4 class="schoolyear">Fourth Year (Start of OWLs):</h4>
-<ol class="fourth-yearbooks">
-<li>The Dark Arts: A Guide to Advanced Self-Protection by Quentin Trimble</li>
-<li>Intermediate Charms by Filius Flitwick</li>
-<li>Hogwarts: A History by Bathilda Bagshot</li>
-</ol>
-<br>
-<h4 class="schoolyear">Fifth Year (OWLs Exam Year):</h4>
-<ol class="fifth-yearbooks">
-<li>Defensive Magical Theory by Wilbert Slinkhard</li>
-<li>Advanced Rune Translation by Bathsheda Babbling</li>
-<li>Confronting the Faceless by Emmeric Switch</li>
-</ol>
-<br>
-<h4 class="schoolyear">Sixth Year (Start of NEWTs):</h4>
-<ol class="sixth-yearbooks">
-<li>Advanced Arithmancy by Bathilda Bagshot</li>
-<li>Advanced Potion-Making by Libatius Borage</li>
-</ol>
-<br>
-<h4 class="schoolyear">Seventh Year (NEWTs Exam Year):</h4>
-<ol class="seventh-yearbooks">
-<li>The Essential Defence Against the Dark Arts by Arsenius Jigger</li>
-<li>Advanced Studies in Charms by Miranda Goshawk</li>
-</ol>
-<br>
-<p class="hogwartsbooksinfotextbottom">We hope this list helps you prepare for the upcoming academic year. Please note that this is a required textbook list, and students may also benefit from additional reading material or supplemental texts depending on their individual interests and academic pursuits.
-</p>
-</section>
+    <h4 class="schoolyear">Third Year:</h4>
+    <ol class="third-yearbooks">
+      <li>Transfiguration by Emeric Switch</li>
+      <li>The Monster Book of Monsters by Edwardus Lima</li>
+      <li>Unfogging the Future by Cassandra Vablatsky</li>
+    </ol>
+    <br>
+    <h4 class="schoolyear">Fourth Year (Start of OWLs):</h4>
+    <ol class="fourth-yearbooks">
+      <li>The Dark Arts: A Guide to Advanced Self-Protection by Quentin Trimble</li>
+      <li>Intermediate Charms by Filius Flitwick</li>
+      <li>Hogwarts: A History by Bathilda Bagshot</li>
+    </ol>
+    <br>
+    <h4 class="schoolyear">Fifth Year (OWLs Exam Year):</h4>
+    <ol class="fifth-yearbooks">
+      <li>Defensive Magical Theory by Wilbert Slinkhard</li>
+      <li>Advanced Rune Translation by Bathsheda Babbling</li>
+      <li>Confronting the Faceless by Emmeric Switch</li>
+    </ol>
+    <br>
+    <h4 class="schoolyear">Sixth Year (Start of NEWTs):</h4>
+    <ol class="sixth-yearbooks">
+      <li>Advanced Arithmancy by Bathilda Bagshot</li>
+      <li>Advanced Potion-Making by Libatius Borage</li>
+    </ol>
+    <br>
+    <h4 class="schoolyear">Seventh Year (NEWTs Exam Year):</h4>
+    <ol class="seventh-yearbooks">
+      <li>The Essential Defence Against the Dark Arts by Arsenius Jigger</li>
+      <li>Advanced Studies in Charms by Miranda Goshawk</li>
+    </ol>
+    <br>
+    <p class="hogwartsbooksinfotextbottom">We hope this list helps you prepare for the upcoming academic year. Please
+      note that this is a required textbook list, and students may also benefit from additional reading material or
+      supplemental texts depending on their individual interests and academic pursuits.
+    </p>
+  </section>
 
-    <!-- Footer -->
-<footer id="socials">
-  <ul class="social-networks">
+  <!-- Footer -->
+  <footer id="socials">
+    <ul class="social-networks">
       <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener"
-              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
       </li>
       <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener"
-              aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener"
+          aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
       </li>
       <li>
-          <a href="https://youtube.com" target="_blank" rel="noopener"
-              aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener"
+          aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
       </li>
       <li>
-          <a href="https://instagram.com" target="_blank" rel="noopener"
-              aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
       </li>
-  </ul>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
