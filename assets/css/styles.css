@@ -530,7 +530,7 @@ i:hover {
 
 .hogwartsbooksinfo,
 .bookcarousel {
-  background-image: url('/assets/images/parchment.jpeg');
+  background-image: url('../images/parchment.jpeg');
 }
 
 .hogwartsbooksinfotexttop {
