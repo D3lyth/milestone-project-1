@@ -659,6 +659,16 @@ i:hover {
   bottom: -3rem;
 }
 
+.carousel-control-prev {
+  left: 0;
+  filter: invert(1);
+}
+
+.carousel-control-next {
+  right: 0;
+  filter: invert(1);
+}
+
 /* Sign up page styling */
 
 #form-section {
