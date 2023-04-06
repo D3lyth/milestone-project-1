@@ -1,8 +1,5 @@
 body {
   background-image: url('../images/parchment.jpeg');
-  background-position: center;
-  background-repeat: no-repeat no-repeat;
-  background-size: cover;
 }
 
 *,
@@ -596,7 +593,7 @@ i:hover {
   color: #333;
   font-family: 'quicksand', sans-serif;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   list-style: none;
 }
 
@@ -604,7 +601,7 @@ i:hover {
   color: #333;
   font-family: 'Princess Sofia', cursive;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*Styling for the Book Carousel Starts here */
@@ -695,7 +692,7 @@ i:hover {
 
 /* Sign up page styling */
 
-#form-section {
+.completeform {
   background-color: rgba(184, 134, 11, 0.5);
   margin-top: 2%;
   margin-left: 3%;
@@ -752,11 +749,14 @@ h3 {
 .labelname {
   color: #333;
   font-family: 'Princess Sofia', cursive;
+  font-size: 25px;
 }
 
 #clubs {
   color: #333;
   font-family: 'Princess Sofia', cursive;
+  font-size: 25px;
+  padding-top: 10px;
 }
 
 #option1 {
@@ -788,6 +788,7 @@ section#subutton {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 #permissionliptext {
@@ -796,6 +797,7 @@ section#subutton {
   font-weight: lighter;
   text-align: center;
   margin-top: 2%;
+  font-size: 30px;
 }
 
 /* Styling for Sign-up Complete page */
@@ -825,7 +827,6 @@ section#subutton {
 
 #returnlink:hover {
   color: #80600f;
-  background-color: #333;
 }
 
 #return:hover {
