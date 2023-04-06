@@ -68,6 +68,23 @@ a {
 
 /* Hero Image Section - Hogwarts Castle */
 
+#maintitle {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-weight: bolder;
+  font-size: 50px;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #333; }
+  25% { color:#4d3802;  } 
+  50% { color:  darkgoldenrod;}
+  75% { color: #725304; }
+  100% { color: #333; }
+}
+
+
 .welcome {
   position: relative;
   margin: 0;
