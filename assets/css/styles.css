@@ -3,7 +3,6 @@ body {
   background-position: center;
   background-repeat: no-repeat no-repeat;
   background-size: cover;
-
 }
 
 *,
@@ -21,7 +20,7 @@ body {
 
 .navbar-brand {
   float: left;
-  color: darkgoldenrod;
+  color: goldenrod;
   font-family: cursive;
   background-color: #333;
   margin: 0;
@@ -29,7 +28,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: goldenrod;
+  color: gold;
 }
 
 #hogwartscrest {
@@ -41,7 +40,7 @@ body {
 }
 
 .navbar-brand:focus {
-  color: goldenrod;
+  color: gold;
   text-shadow: 0px 0px 30px #fdec6e;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -216,9 +215,9 @@ h1,
 }
 
 #flip-card-ravenclaw {
-  border: navy solid 4px;
-  background-color: navy;
-  color: rgb(201, 125, 54);
+  border: #020247 solid 4px;
+  background-color: #020247;
+  color: rgb(200, 152, 107);
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 }
@@ -232,9 +231,9 @@ h1,
 }
 
 #flip-card-slytherin {
-  border: darkgreen solid 4px;
-  background-color: darkgreen;
-  color: silver;
+  border:#015401  solid 4px;
+  background-color: #015401;
+  color: #eff5f2;
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 }
@@ -274,12 +273,12 @@ h1,
 }
 
 i {
-  color: darkgoldenrod;
+  color: goldenrod;
   font-size: 40px;
 }
 
 i:hover {
-  color: goldenrod;
+  color: gold;
   transform: scale(1.5);
   text-shadow: 0px 0px 30px #fdec6e;
   -moz-transition: all 0.2s ease-in;
@@ -351,7 +350,6 @@ i:hover {
     display: none;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1600px) {
   #menu li {
     display: inline-block;
@@ -361,7 +359,7 @@ i:hover {
   }
 
   #menu a {
-    color: darkgoldenrod;
+    color: goldenrod;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 1px;
@@ -372,7 +370,7 @@ i:hover {
 
   #menu a:hover {
     background-color: none;
-    color: goldenrod;
+    color:#f6f18d ;
     transform: scale(1.5);
     text-shadow: 0px 0px 30px #fdec6e;
     -moz-transition: all 0.2s ease-in;
@@ -383,10 +381,44 @@ i:hover {
 
   #menu .active {
     text-decoration: underline;
-    color: goldenrod;
+    color: gold;
   }
 }
+/*@media (min-width: 992px) and (max-width: 1600px) {
+  #menu li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    justify-content: center;
+  }
 
+  #menu a {
+    color: goldenrod;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  #menu a:hover {
+    background-color: none;
+    color: #fdec6e;
+    transform: scale(1.5);
+    text-shadow: 0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+
+  #menu .active {
+    text-decoration: underline;
+    color: gold;
+  }
+}
+*/
 /* Headmaster's Address Section */
 
 @media screen and (max-width: 768px) {
@@ -474,12 +506,12 @@ i:hover {
 
 .dropdown-menu {
 
-  --bs-dropdown-color: goldenrod;
+  --bs-dropdown-color: gold;
   --bs-dropdown-bg: #333;
-  --bs-dropdown-link-color: goldenrod;
+  --bs-dropdown-link-color: gold;
   --bs-dropdown-link-hover-color: #333;
-  --bs-dropdown-link-hover-bg: darkgoldenrod;
-  --bs-dropdown-link-active-color: darkgoldenrod;
+  --bs-dropdown-link-hover-bg: goldenrod;
+  --bs-dropdown-link-active-color: goldenrod;
 
 }
 
@@ -606,8 +638,8 @@ i:hover {
   color: #333;
   padding: 0.5%;
   font-size: 12px;
-  background-color: goldenrod;
-  border: solid 2px darkgoldenrod;
+  background-color: gold;
+  border: solid 2px goldenrod;
   margin-bottom: 15%;
 }
 
@@ -733,8 +765,8 @@ h3 {
 
 #signupbutton {
   border-radius: 5%;
-  color: goldenrod;
-  border-color: goldenrod;
+  color: gold;
+  border-color: gold;
   background-color: #333;
   font-family: 'roboto', sans-serif;
   padding: 3px;
@@ -742,7 +774,7 @@ h3 {
 }
 
 #signupbutton:hover {
-  color: goldenrod;
+  color: gold;
   transform: scale(1.2);
   text-shadow: 0px 0px 30px #fdec6e;
   -moz-transition: all 0.2s ease-in;
@@ -792,7 +824,7 @@ section#subutton {
 }
 
 #returnlink:hover {
-  color: goldenrod;
+  color: gold;
 }
 
 #return:hover {
