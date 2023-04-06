@@ -23,7 +23,7 @@ The inspiration for the colours and colour scheme for the website was based on t
 The colours of the Great hall include browns, which represent the interior and the long house benches that pupils eat their meals by; golds, which represent drinking goblets and other other tableware, and wand-light.
 
 - Brown: `#333`
-- Dark Gold: `#b8860b`
+- Gold: `#ffd700` - Was changed from back gold in deployment stage to improve accessibility.
 - Gold (for logo): `#b59254`
 - Bright Gold: `#daa520`
 - Yellow Glow: `#fdec6e`
@@ -33,7 +33,7 @@ Adobe Color was used to create the colour palette [https://color.adobe.com/creat
 ![screenshot](documentation/colourpalette.png)
 
 - `#333` used for primary text on light background
-- `#b8860b` used for text on dark background
+- `#ffd700` used for text on dark background
 - `#b59254` used for Hogwarts logo
 - `#daa520` and #fdec6e used for on hover glow highlighting
 
@@ -79,19 +79,18 @@ In this section, list all of your user stories for the project.
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new Hogwarts Student, I would like to look up information about the house system, so that I can be prepared for the sorting ceremony.
+- As a new Hogwarts Student, I would like to find information about book lists used in classes, so that I can find where to go and buy themand prepare for the year ahead.
+- As a new Hogwarts Student, I would like to see what clubs that are available, so that I can join clubs ready for the next academic year.
+- As a new Hogwarts Student, I would like to find the links to the school's social media, so that I can keep up to date with any announcements.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning Hogwarts Student, I would like to go back and sign up for more clubs for the following year, so that I can prepare for the year ahead.
+- As a returning Hogwarts Student, I would like to find new book lists for the new school year, so that I can buy them and prepare for the new year.
+- As a returning Hogwarts Student, I would like to be able to read Professor Dumbledore's welcome speech, so that I can be reminded of the message he gives the students every year.
+- As a returning Hogwarts Student, I would like to fill in the permission slip for Hogsmede, so that I can make sure that the form is sent correctly.
+- As a returning Hogwarts Student, I would like to find the links to the school's social media, so that I can keep up to date with any announcements.
 
 ### Site Admin
 
@@ -103,7 +102,7 @@ In this section, list all of your user stories for the project.
 
 ## Wireframes
 
-After the initial sketch, and to follow best practice, Balsamiq [Balsamiq](https://balsamiq.com/wireframes) was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
+After the initial sketch, and to follow best practice, [Balsamiq](https://balsamiq.com/wireframes) was used to develop the wireframes for the three separate pages (each) for mobile screens, tablet screens and desktop screens.
 
 ### Home Page Wireframes
 
@@ -262,14 +261,19 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Hogwarts Crest Image:
+Hogwarts Castle Image:
+Dumbledore Image:
+Griffindor Crest Image:
+Ravenclaw Crest Image:
+Hufflepuff Crest Image:
+Slytherin Crest Image:
+Books Image
+Information for content (book names, house characteristics, club ideas):
 
 Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
 A few examples have been provided below to give you some ideas.
 
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -304,10 +308,8 @@ by sending yourself the following command: `!freemedia`.
 | [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
 | [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
 | [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [PhotoPea](https://www.photopea.com) | entire site | image | tool for editing photos |
 
 ### Acknowledgements
 
