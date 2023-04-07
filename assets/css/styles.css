@@ -814,7 +814,7 @@ section#subutton {
   font-weight: lighter;
   text-align: center;
   margin-top: 2%;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /* Styling for Sign-up Complete page */
@@ -853,12 +853,4 @@ section#subutton {
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-}
-
-div#crest {
-  height: 350px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 33%;
 }
