@@ -39,9 +39,9 @@ Adobe Color was used to create the colour palette [https://color.adobe.com/creat
 
 The house colours (used mainly on the flip cards on the 'home page') are as follows:
 - Griffindor - Maroon (`#800000`) and gold (`#fad700`)
-- Ravenclaw - Dark blue (`#000080`) and bronze (`#c97d36`)
+- Ravenclaw - Dark blue (`##020247`) and bronze (`#c8986b`)
 - Hufflepuff - Yellow (`#eed813`) and black (`#000000`)
-- Slytherin - Green (`#006400`) and silver (`#c0c0c0`)
+- Slytherin - Green (`#015401`) and silver (`#eff5f2`)
 
 ### Typography
 
@@ -245,6 +245,34 @@ Comparing Local vs live deployment, there doesn't seem to be any differences in 
 
 ### Content
 
+Below is a list of some of the websites that I used to help completing the website.
+
+The colour-changing heading code used was code that I had used previously on another project (credited in table below):
+
+`h1 {animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #eeebf5; }
+  25% { color: #5763e6; }
+  50% { color: #e6ce57; }
+  75% { color: #33ab3b; }
+  100% { color: #b02328; }
+}`
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Code Institute](https://learn.codeinstitute.net) | css Love Running | The idea for using a hero image on the homepage |
+| [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | My project for the Certification task - Survey Form | css and keyframes for the colour-changing heading |
+| [Stack Overflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel/49017805#49017805) | Used to troubleshoot changing the colour of the arrows in a bootstrap carousel |
+
+### Media
+
 The content was based on J.K. Rowling's famous Harry Potter Book series. The images and information were gathered from the following sites:
 
 Hogwarts Crest Image:
@@ -261,39 +289,12 @@ Books Image (Advanced Potion Making):
 Books Image (Unfogging the Future):
 Books Image (Fantastic Beasts):
 Books Image (The Standard Book of Spells):
-Information for content (book names, house characteristics, club ideas): The Harry Potter Book Series, 
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-
-### Media
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Information for content (book names, house characteristics, club ideas): The Harry Potter Book Series,
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
+| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |s
 | [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
 | [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
