@@ -23,7 +23,7 @@ The inspiration for the colours and colour scheme for the website was based on t
 The colours of the Great hall include browns, which represent the interior and the long house benches that pupils eat their meals by; golds, which represent drinking goblets and other other tableware, and wand-light.
 
 - Brown: `#333`
-- Gold: `#ffd700` - Was changed from back gold in deployment stage to improve accessibility.
+- Gold: `#ffd700` - Was changed from back gold in deployment stage to improve accessibility and colour contrast.
 - Gold (for logo): `#b59254`
 - Bright Gold: `#daa520`
 - Yellow Glow: `#fdec6e`
@@ -47,9 +47,9 @@ The house colours (used mainly on the flip cards on the 'home page') are as foll
 
 The fonts used for the website are listed below, and are all from Google Fonts.
 
-Allure is a Google Font thaat was chosen as the Logo font for the School with cursive being the fallback font.
+Allura is a Google Font that was chosen as the Logo font for the School with cursive being the fallback font.
 
-Princess Sofia is a Google Font that was chosen as a cursive text to give the main headings and titles of the site an old-fashioned, handwritten look.
+Princess Sofia is a Google Font that was chosen as a cursive text to give the main headings and titles of the site an old-fashioned, handwritten look to tie in with the Harry Potter theme.
 
 Another google for that was used for the primary text of the website was another Google Font - 'Quicksand'. The back-up font is 'sans-serif'. Although this isn't an 'old-fashioned' cursive font, it was chosen for its readability as Princess Sofia as a small font was more difficult to read. 
 
@@ -71,17 +71,11 @@ The last Google Fonts used was 'Licorice' - this is seen on the book labels on t
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### New Site Users
 
 - As a new Hogwarts Student, I would like to look up information about the house system, so that I can be prepared for the sorting ceremony.
-- As a new Hogwarts Student, I would like to find information about book lists used in classes, so that I can find where to go and buy themand prepare for the year ahead.
-- As a new Hogwarts Student, I would like to see what clubs that are available, so that I can join clubs ready for the next academic year.
+- As a new Hogwarts Student, I would like to find information about book lists used in classes, so that I can find where to go and buy them and prepare for the year ahead.
+- As a new Hogwarts student, I want to be able to access the Clubs page of the Hogwarts School website, so that I can choose my extracurricular clubs and submit my choices.
 - As a new Hogwarts Student, I would like to find the links to the school's social media, so that I can keep up to date with any announcements.
 
 ### Returning Site Users
@@ -94,11 +88,10 @@ In this section, list all of your user stories for the project.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to navigate the website using the links, so that I can ensure that all pages and links are working as they should.
+- As a site administrator, I should be able to manage club permissions, so that I can update the list of available clubs, add new clubs, or remove clubs as needed.
+- As a site administrator, I should be able to manage house information on the Hogwarts School website, so that I can update and maintain accurate information about each house.
+- As a site administrator, I should be able to manage book lists and required books for each year on the Hogwarts School website so that I can edit this on a yearly basis if the curriculum or required texts change.
 
 ## Wireframes
 
@@ -130,50 +123,53 @@ After the initial sketch, and to follow best practice, [Balsamiq](https://balsam
 
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Existing Features
 
-- **Title for feature #1**
+- **Navigation Bar with links**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The navigation bar includes the Hogwarts Crest (logo) and name on the left. This will appear on each page of the website. Clicking on the logo will ensure that the user returns to the home page each time. The links on the right allows the user to navigate to the different pages within the site.
 
 ![screenshot](documentation/feature01.png)
 
-- **Title for feature #2**
+- **FlipCards including House Information**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The flipcard feature shows the crest and colours of all the Hogwarts houses. On the main side the house crest is shown. Hovering on desktops (and pressing the flipcard on mobiles and tablets) will show the name of the house and give the history and main characteristincs of the houses. Houses are an integral part of the school, thereore it is important for users to find out information about the school houses.
 
 ![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+- **Social Links**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The icons along the bottom will increase in size and glow when hovered upon. These are the links to all the various social media pages of Hogwarts School - Facebook, Instagram, Twitter and YouTube. All websites include information about social media and the links are found ont he bottom of each page within the website. This will help with the ease of use and users will know what to expect.
 
 ![screenshot](documentation/feature03.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- **Burger Button Links (for smaller screens)**
 
-Repeat as necessary for as many features as your site contains.
+    - The links to navigate to the other pages in the site is collapsed into a burger button with a drop down menu for smaller screens. This is to follow good practice and allow ease of use for users accessing teh website on smaller devices.
 
-Hint: the more, the merrier!
+![screenshot](documentation/feature04.png)
+
+- **Book Cover Carousel**
+
+    - The book cover carousel has been included to allow the users to have a bit of interactivity with the website. The carousels also allowss for the users to visualise what the books look like without it taking up a huge amount of space on the page. Users will be able to scroll through some examples of books using the prev/next buttons.
+
+![screenshot](documentation/feature05.png)
+
+- **Sign Up Form**
+
+    - The sign up form allows the students to choose the clubs they wish to join for the next school year. The form includes 3 input fields: first name, last name and e-mail address. The next two fields are dropdown fields that allows the user to choose their school year and their head of house. The next part of the form includes a list of clubs with checkboxes that students can choose (as many as they want) to indicate their choices. 
+
+![screenshot](documentation/feature06.png)
+
+- **Permission Slip and Submit Button**
+
+    - The last part of the form allows the parents of the user to use a dropdown menu to give permission (or not) for their child to be able to go off school grounds. Below this is the form submit button that submits the form and sends the user to a 'Thank you for signing up' page, in which they are able to navigate back to the home page.
+
+![screenshot](documentation/feature07.png)
 
 ### Future Features
 
-The website ciuld be further expanded in many ways.
+The website could be further expanded in many ways.
 
 - Uniform Feature
     - A carousel showcasing the school uniform, or even a possibility to be able to order a uniform could be included on a future version of the site.
@@ -243,23 +239,13 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Comparing Local vs live deployment, there doesn't seem to be any differences in the websites.
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Content
+
+The content was based on J.K. Rowling's famous Harry Potter Book series. The images and information were gathered from the following sites:
 
 Hogwarts Crest Image:
 Hogwarts Castle Image:
@@ -268,8 +254,14 @@ Griffindor Crest Image:
 Ravenclaw Crest Image:
 Hufflepuff Crest Image:
 Slytherin Crest Image:
-Books Image
-Information for content (book names, house characteristics, club ideas):
+Parchment paper background:
+Books Image (A History of Magic):
+Books Image (Advanced Transfiguration):
+Books Image (Advanced Potion Making):
+Books Image (Unfogging the Future):
+Books Image (Fantastic Beasts):
+Books Image (The Standard Book of Spells):
+Information for content (book names, house characteristics, club ideas): The Harry Potter Book Series, 
 
 Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
 A few examples have been provided below to give you some ideas.
@@ -283,7 +275,6 @@ A few examples have been provided below to give you some ideas.
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
 
 ### Media
 
@@ -291,9 +282,6 @@ A few examples have been provided below to give you some ideas.
 
 Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
 A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
 
 Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
 The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
