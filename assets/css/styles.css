@@ -231,14 +231,14 @@ h1,
 #flip-card-ravenclaw {
   border: solid 4px;
   background-color: #020247;
-  color: rgb(200, 152, 107);
+  color: #c8986b;
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
 }
 
 #flip-card-hufflepuff {
   border: solid 4px;
-  background-color: rgb(238, 216, 19);
+  background-color: #eed813;
   color: black;
   font-family: 'Quicksand', sans-serif;
   font-size: 13px;
