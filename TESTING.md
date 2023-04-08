@@ -48,7 +48,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
 | Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
+| Opera | ![screenshot](documentation/browser-opera.png) | Works as expected|
 | Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
 
 ## Responsiveness
