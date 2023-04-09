@@ -56,19 +56,18 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Galaxy Fold (DevTools) | ![screenshot](documentation/responsive-galaxyfold.png) | Due to small screen, x-scrollbar comes into effect and some scaling issues|
 
 ## Lighthouse Audit
-🔴🔴
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| Information | Mobile | ![screenshot](documentation/lighthouse-information-mobile.png) | Some minor warnings |
-| Information | Desktop | ![screenshot](documentation/lighthouse-information-desktop.png) | Few warnings |
+| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Slow response time due to large images |
+| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Slow response time due to large images |
+| Information | Mobile | ![screenshot](documentation/lighthouse-info-mobile.png) | Some minor warnings |
+| Information | Desktop | ![screenshot](documentation/lighthouse-info-desktop.png) | No issues |
 | Clubs | Mobile | ![screenshot](documentation/lighthouse-clubs-mobile.png) | Slow response time due to large images |
-| Clubs | Desktop | ![screenshot](documentation/lighthouse-clubs-desktop.png) | Slow response time due to large images |
-| Sign Up Complete | Mobile | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | Slow response time due to large images |
-| Sign Up Complete | Desktop | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | Slow response time due to large images |
+| Clubs | Desktop | ![screenshot](documentation/lighthouse-clubs-desktop.png) | No issues |
+| Sign Up Complete | Mobile | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | No issues |
+| Sign Up Complete | Desktop | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | No issues |
 
 ## User Story Testing
 🔴🔴
