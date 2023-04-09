@@ -697,6 +697,12 @@ i:hover {
   margin-bottom: 3%;
   padding: 3%;
   border-radius: 5%;
+  border:#f6f18d solid 3px;
+  box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #f0f1cf,
+    inset 0 0 1.3rem #fff;
+
 }
 
 #signuptitle {
