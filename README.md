@@ -275,30 +275,29 @@ The colour-changing heading code used was code that I had used previously on ano
 
 The content was based on J.K. Rowling's famous Harry Potter Book series. The images and information were gathered from the following sites:
 
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
 | [Hogwarts Crest](https://i.pinimg.com/736x/04/bf/78/04bf788c531a977831b14dafcb15da5f.jpg) | entire site | image | Hogwarts crest on all pages |
+| [Hogwarts Castle](https://encrypted-tbn2.gstatic.comimagesq=tbn:ANd9GcTvPB9wkhPxa1HaKZbn-6aGE41fqYdy5ReVFTQx73Ij_dmP-qHT) | home page | hero image | image of castle when site is opened |
 | [Dumbledore Image](https://starwars-universe.fandom.com/wiki/Jorus_Sabaoth) | home page | image | Dumbledore's image for home page |
 | [Griffindor Crest](https://www.pngwing.com/en/search?q=gryffindor) | home page | image | image for front of flip card |
 | [Ravenclaw Crest](https://i.pinimg.com/736x/3a/cd/d1/3acdd106cae5bd733ad238aaba256c87.jpg) | home page | image | image for front of flip card |
-| [Hufflepuff Crest]( https://sgt-pokemon.neocities.org/Harry_Potter/hufflepuffcrestlargewoshad.png
-castle: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvPB9wkhPxa1HaKZbn-6aGE41fqYdy5ReVFTQx73Ij_dmP-qHT) | home page | image | image for front of flip card |
+| [Hufflepuff Crest](https://sgt-pokemon.neocities.org/Harry_Potter/hufflepuffcrestlargewoshad.png) | home page | image | image for front of flip card |
 | [Slytherin Crest](https://s.clipartkey.com/mpngs/s/74-741705_slytherin-house-hogwarts-harry-potter-professor-severus-slytherin.png) | home page | image | image for front of flip card |
-| [Parchment Paper Background]() | entire site | background image | to make the backround look like paper |
-| [A History of Magic Book Cover]() | information page | image | book cover included on book carousel |
-| [Advanced Transfiguration Book Cover]() | information page | image | book cover included on book carousel |
-| [A History of Magic Book Cover]() | information page | image | book cover included on book carousel |
+| [Parchment Paper Background](https://www.rawpixel.com/image/597215/aged-paper-texture) | entire site | background image | to make the backround look like paper |
+| [A History of Magic Book Cover](https://harrypottershop.com/collections/mina-lima) | information page | image | book cover included on book carousel |
+| [Advanced Transfiguration Book Cover](https://www.hollydunndesign.com/#/harry-potter-textbook-covers/) | information page | image | book cover included on book carousel |
+| [Advanced Potion Making Book Cover](https://harrypotter.fandom.com/wiki/Sixth_year) | information page | image | book cover included on book carousel |
+| [Unfogging the Future Book Cover]( https://harrypotter.fandom.com/ru/wiki/) | information page | image | book cover included on book carousel |
+| [The Standard Book of Spells Book Cover](https://i.pinimg.com/originals/5f/f0/a0/5ff0a04d0dc284845ad99dc9bfb69c82.jpg) | information page | image | book cover included on book carousel |
+| [Fantastic Beasts Book Cover](https://harrypotter.fandom.com/wiki/Fantastic_Beasts_and_Where_to_Find_Them) | information page | image | book cover included on book carousel |
+| [Hogwarts Information for content](https://www.wizardingworld.com/) | entire site | information for content | Used to find information on clubs, houses, book lists |
+| [Hogwarts Information for further content](https://harrypotter.fandom.com/wiki/Harry_Potter/) | entire site | information for content | Used to find information on clubs, houses, book lists |
 
-Books Image (Advanced Potion Making):
-Books Image (Unfogging the Future):
-Books Image (Fantastic Beasts):
-Books Image (The Standard Book of Spells):
-Information for content (book names, house characteristics, club ideas): The Harry Potter Book Series,
+The following sites were used to edit and compress the images:
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |s
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 | [PhotoPea](https://www.photopea.com) | entire site | image | tool for editing photos |
 
