@@ -66,24 +66,24 @@
   <section class="completeform">
     <form action="signupcomplete.html" id="form-selection">
 
-      <section class="personalinfo">
+      <div class="personalinfo">
         <label class="labelname" for="fname" id="fname">First Name:</label>
-        <input id="fname" type="text" placeholder="Enter your first name" name="first_name" class="text-input"
-          required />
+        <input type="text" placeholder="Enter your first name" name="first_name" class="text-input"
+          required>
         <br>
         <br>
         <label class="labelname" for="lname" id="lname">Last Name:</label>
-        <input id="lname" type="text" placeholder="Enter your last name" name="last_name" class="text-input" required />
+        <input type="text" placeholder="Enter your last name" name="last_name" class="text-input" required>
         <br>
         <br>
         <label class="labelname" for="email" id="email">Magic Owl E-mail:</label>
-        <input id="email" type="email" placeholder="name@email.com" name="email_address" class="text-input" required />
+        <input type="email" placeholder="name@email.com" name="email_address" class="text-input" required>
         <br>
-      </section>
+      </div>
 
-      <section class="yeardropdown">
+      <div class="yeardropdown">
         <label class="form__label labelname" for="year">Year: </label>
-        <select type="text" id="year" name="year">
+        <select id="year" name="year" required>
           <option value="">--Please choose an option--</option>
           <option value="year1">Year 1</option>
           <option value="year2">Year 2</option>
@@ -94,11 +94,11 @@
           <option value="year7">Year 7</option>
         </select>
         <br>
-      </section>
+      </div>
 
-      <section class="hohdropdown">
+      <div class="hohdropdown">
         <label class="form__label labelname" for="hoh">Head of House: </label>
-        <select type="text" id="hoh" name="hoh">
+        <select id="hoh" name="hoh" required>
           <option value="">--Please choose an option--</option>
           <option value="hoh1">Professor McGonagall</option>
           <option value="hoh2">Professor Flitwick</option>
@@ -106,9 +106,9 @@
           <option value="hoh4">Professor Snape</option>
         </select>
         <br>
-      </section>
+      </div>
 
-      <section class="clubselection"> <label id="clubs" for="clubs">Please select the clubs that interest you. <span
+      <div class="clubselection"> <label id="clubs" for="clubs">Please select the clubs that interest you. <span
             class="choice">(Choose all that may apply.)</span></label><br>
         <input type="checkbox" id="option1" name="option1" value="option1">
         <label for="option1">Quidditch (Year 2 and up)</label><br>
@@ -130,9 +130,9 @@
         <label for="option9">S.P.E.W.</label><br>
         <input type="checkbox" id="option10" name="option10" value="option10">
         <label for="option10">Chocolate Frog Card-Swap Club</label><br>
-      </section>
+      </div>
 
-      <section class="hogsmedesignup">
+      <div class="hogsmedesignup">
         <p class="hogsmede">The following part of the form is to indicate whether your child has permission to
           attend Hogsmede Village during weekends.
           Please read the following and select the aption that applies. <span id="slip">(For students in Year 3 or
@@ -140,14 +140,14 @@
         <p id="permissionliptext">After careful consideration, as the parent or guardian of the student named above,
           I
           <span class="permission">
-            <select type="text" id="permissionslip" name="permissionslip">
+            <select id="permissionslip" name="permissionslip" required>
               <option value="">--Please choose an option--</option>
               <option value="yes">do</option>
               <option value="no">do not</option>
             </select>
           </span> give permission to visit Hogsmede on weekends and take full responsibility for this decision.
         </p>
-      </section>
+      </div>
 
       <section id="subutton" action="signupcomplete.html">
         <input id="signupbutton" type="submit" value="Submit">
