@@ -30,25 +30,26 @@
         </a>
         <ul id="menu">
           <li>
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html" aria-label="Go to home page" class="active">Home</a>
           </li>
           <li>
-            <a href="information.html">Information</a>
+            <a href="information.html" aria-label="Go to information page">Information</a>
           </li>
 
           <li>
-            <a href="clubs.html">Clubs</a>
+            <a href="clubs.html" aria-label="Go to clubs page">Clubs</a>
           </li>
         </ul>
         <!--Burger Button -->
         <div class="dropdown">
-          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle menu">
             <i class="fa-solid fa-bars" style="color: #dbbe51;"></i>
+            <span class="visually-hidden">Toggle menu</span>
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="index.html">Home</a></li>
-            <li><a class="dropdown-item" href="information.html">Information</a></li>
-            <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
+            <li><a class="dropdown-item" href="index.html" aria-label="Go to home page">Home</a></li>
+            <li><a class="dropdown-item" href="information.html" aria-label="Go to information page">Information</a></li>
+            <li><a class="dropdown-item" href="clubs.html" aria-label="Go to clubs page">Clubs</a></li>
           </ul>
         </div>
       </div>
