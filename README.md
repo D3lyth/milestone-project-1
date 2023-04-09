@@ -275,16 +275,18 @@ The colour-changing heading code used was code that I had used previously on ano
 
 The content was based on J.K. Rowling's famous Harry Potter Book series. The images and information were gathered from the following sites:
 
-Hogwarts Crest Image:
-Hogwarts Castle Image:
-Dumbledore Image:
-Griffindor Crest Image:
-Ravenclaw Crest Image:
-Hufflepuff Crest Image:
-Slytherin Crest Image:
-Parchment paper background:
-Books Image (A History of Magic):
-Books Image (Advanced Transfiguration):
+| [Hogwarts Crest](https://i.pinimg.com/736x/04/bf/78/04bf788c531a977831b14dafcb15da5f.jpg) | entire site | image | Hogwarts crest on all pages |
+| [Dumbledore Image](https://starwars-universe.fandom.com/wiki/Jorus_Sabaoth) | home page | image | Dumbledore's image for home page |
+| [Griffindor Crest](https://www.pngwing.com/en/search?q=gryffindor) | home page | image | image for front of flip card |
+| [Ravenclaw Crest](https://i.pinimg.com/736x/3a/cd/d1/3acdd106cae5bd733ad238aaba256c87.jpg) | home page | image | image for front of flip card |
+| [Hufflepuff Crest]( https://sgt-pokemon.neocities.org/Harry_Potter/hufflepuffcrestlargewoshad.png
+castle: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvPB9wkhPxa1HaKZbn-6aGE41fqYdy5ReVFTQx73Ij_dmP-qHT) | home page | image | image for front of flip card |
+| [Slytherin Crest](https://s.clipartkey.com/mpngs/s/74-741705_slytherin-house-hogwarts-harry-potter-professor-severus-slytherin.png) | home page | image | image for front of flip card |
+| [Parchment Paper Background]() | entire site | background image | to make the backround look like paper |
+| [A History of Magic Book Cover]() | information page | image | book cover included on book carousel |
+| [Advanced Transfiguration Book Cover]() | information page | image | book cover included on book carousel |
+| [A History of Magic Book Cover]() | information page | image | book cover included on book carousel |
+
 Books Image (Advanced Potion Making):
 Books Image (Unfogging the Future):
 Books Image (Fantastic Beasts):
