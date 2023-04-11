@@ -77,11 +77,25 @@ a {
 }
 
 @keyframes color-change {
-  0% { color: #333; }
-  25% { color:#4d3802;  } 
-  50% { color:  darkgoldenrod;}
-  75% { color: #725304; }
-  100% { color: #333; }
+  0% {
+    color: #333;
+  }
+
+  25% {
+    color: #4d3802;
+  }
+
+  50% {
+    color: darkgoldenrod;
+  }
+
+  75% {
+    color: #725304;
+  }
+
+  100% {
+    color: #333;
+  }
 }
 
 
@@ -364,6 +378,7 @@ i:hover {
     display: none;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1600px) {
   #menu li {
     display: inline-block;
@@ -383,7 +398,7 @@ i:hover {
   }
 
   #menu a:hover {
-    color:#f6f18d ;
+    color: #f6f18d;
     transform: scale(1.5);
     text-shadow: 0px 0px 30px #fdec6e;
     -moz-transition: all 0.2s ease-in;
@@ -397,7 +412,7 @@ i:hover {
     color: gold;
   }
 }
- 
+
 /* Headmaster's Address Section */
 
 @media screen and (max-width: 768px) {
@@ -675,13 +690,19 @@ i:hover {
 /* Sign up page styling */
 
 .completeform {
-  background-color: rgba(184, 134, 11, 0.5);
+  background-color: rgba(247, 238, 103, 0.5);
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 3%;
   margin-bottom: 3%;
   padding: 3%;
   border-radius: 5%;
+  border:#f6f18d solid 3px;
+  box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #f0f1cf,
+    inset 0 0 1.3rem #fff;
+
 }
 
 #signuptitle {
@@ -720,6 +741,8 @@ h3 {
   color: #333;
   text-align: left;
   font-family: 'Quicksand', sans-serif !important;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .personalinfo .hohdropdown,
@@ -770,7 +793,7 @@ section#subutton {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+
 }
 
 #permissionliptext {

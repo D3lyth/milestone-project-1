@@ -17,7 +17,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FD3lyth.github.io%2Fmilestone-project-1%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Img-fliud errors and duplicate ids found and fixed |
 | Information | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fd3lyth.github.io%2Fmilestone-project-1%2Finformation.html) | ![screenshot](documentation/html-validation-info.png) | Img-fluid errors found and fixed |
-| Clubs | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FD3lyth.github.io%2Fmilestone-project-1%2Fclubs.html) | ![screenshot](documentation/html-validation-clubs.png) |🔴 Pass: No Errors |
+| Clubs | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FD3lyth.github.io%2Fmilestone-project-1%2Fclubs.html) | ![screenshot](documentation/html-validation-clubs.png) |No Errors, but warning for section (form) lacking h2-h6 headings  |
 | Sign Up Complete | n/a | ![screenshot](documentation/html-validation-signupcomplete.png) | No errors (1 minor warning) |
 
 ### CSS
@@ -30,25 +30,16 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Browser Compatibility
 
-The testing of the live/deployed site is done on various browsers as listed below:
-
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
+| Edge | ![screenshot](documentation/browser-edge.jpg) | Minor css differences and scaling issues |
+| Safari | ![screenshot](documentation/browser-safari.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
+| Opera | ![screenshot](documentation/browser-opera.png) | Works as expected|
 | Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
 
 ## Responsiveness
@@ -65,19 +56,18 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Galaxy Fold (DevTools) | ![screenshot](documentation/responsive-galaxyfold.png) | Due to small screen, x-scrollbar comes into effect and some scaling issues|
 
 ## Lighthouse Audit
-🔴🔴
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| Information | Mobile | ![screenshot](documentation/lighthouse-information-mobile.png) | Some minor warnings |
-| Information | Desktop | ![screenshot](documentation/lighthouse-information-desktop.png) | Few warnings |
+| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Slow response time due to large images |
+| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Slow response time due to large images |
+| Information | Mobile | ![screenshot](documentation/lighthouse-info-mobile.png) | Some minor warnings |
+| Information | Desktop | ![screenshot](documentation/lighthouse-info-desktop.png) | No issues |
 | Clubs | Mobile | ![screenshot](documentation/lighthouse-clubs-mobile.png) | Slow response time due to large images |
-| Clubs | Desktop | ![screenshot](documentation/lighthouse-clubs-desktop.png) | Slow response time due to large images |
-| Sign Up Complete | Mobile | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | Slow response time due to large images |
-| Sign Up Complete | Desktop | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | Slow response time due to large images |
+| Clubs | Desktop | ![screenshot](documentation/lighthouse-clubs-desktop.png) | No issues |
+| Sign Up Complete | Mobile | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | No issues |
+| Sign Up Complete | Desktop | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | No issues |
 
 ## User Story Testing
 🔴🔴
@@ -176,7 +166,7 @@ Some examples:
 
 - When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
 
-    ![screenshot](documentation/unfixed-bug03.png)
+    ![screenshot](documentation/html-validation-clubs.png)
 
     - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
 

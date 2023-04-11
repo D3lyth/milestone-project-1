@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Meta Data-->
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hogwarts website for students of Hogwarts to come and find information about the school and sign up to clubs.">
+  <!--Bootstrap Link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--css and googlefonts links-->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Allura&family=EB+Garamond&family=Licorice&family=Montserrat:wght@100&family=Petit+Formal+Script&family=Princess+Sofia&family=Quicksand:wght@300&family=Roboto:wght@100&family=WindSong&display=swap"
     rel="stylesheet">
+  <!--Fontawesome link for socials-->
   <script src="https://kit.fontawesome.com/2091d974dc.js" crossorigin="anonymous"></script>
   <title>Milestone Project 1 - Hogwarts</title>
 </head>
+<!--Body of site begins here-->
 
 <body>
   <header id="nav-links">
@@ -29,25 +35,26 @@
         </a>
         <ul id="menu">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" aria-label="Go to home page">Home</a>
           </li>
           <li>
-            <a href="information.html">Information</a>
+            <a href="information.html" aria-label="Go to information page">Information</a>
           </li>
 
           <li>
-            <a href="clubs.html" class="active">Clubs</a>
+            <a href="clubs.html" class="active" aria-label="Go to clubs page">Clubs</a>
           </li>
         </ul>
-        <!--Burger Button -->
+        <!--Burger Button Bootstrap -->
         <div class="dropdown">
-          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle menu">
             <i class="fa-solid fa-bars" style="color: #dbbe51;"></i>
+            <span class="visually-hidden">Toggle menu</span>
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="index.html">Home</a></li>
-            <li><a class="dropdown-item" href="information.html">Information</a></li>
-            <li><a class="dropdown-item" href="clubs.html">Clubs</a></li>
+            <li><a class="dropdown-item" href="index.html" aria-label="Go to home page">Home</a></li>
+            <li><a class="dropdown-item" href="information.html" aria-label="Go to information page">Information</a></li>
+            <li><a class="dropdown-item" href="clubs.html" aria-label="Go to clubs page">Clubs</a></li>
           </ul>
         </div>
       </div>
@@ -64,26 +71,26 @@
   <h3 id="signupnow">Sign Up Now!</h3>
   <!-- Beginning of Sign up form-->
   <section class="completeform">
-    <form action="signupcomplete.html" id="form-selection">
-
-      <section class="personalinfo">
-        <label class="labelname" for="fname" id="fname">First Name:</label>
-        <input id="fname" type="text" placeholder="Enter your first name" name="first_name" class="text-input"
-          required />
+    <form action="signupcomplete.html" id="form-selection" method="get">
+      <!--Name and email info-->
+      <div class="personalinfo">
+        <label class="labelname" for="fname" id="firstname">First Name:</label>
+        <input id="fname" type="text" placeholder="Enter your first name" name="first_name" class="text-input" required>
         <br>
         <br>
-        <label class="labelname" for="lname" id="lname">Last Name:</label>
-        <input id="lname" type="text" placeholder="Enter your last name" name="last_name" class="text-input" required />
+        <label class="labelname" for="lname" id="lastname">Last Name:</label>
+        <input id="lname" type="text" placeholder="Enter your last name" name="last_name" class="text-input" required>
         <br>
         <br>
-        <label class="labelname" for="email" id="email">Magic Owl E-mail:</label>
-        <input id="email" type="email" placeholder="name@email.com" name="email_address" class="text-input" required />
+        <label class="labelname" for="emailaddress" id="email">Magic Owl E-mail:</label>
+        <input id="emailaddress" type="email" placeholder="name@email.com" name="email_address" class="text-input"
+          required>
         <br>
-      </section>
-
-      <section class="yeardropdown">
+      </div>
+      <!--Dropdowns for year group and head of house-->
+      <div class="yeardropdown">
         <label class="form__label labelname" for="year">Year: </label>
-        <select type="text" id="year" name="year">
+        <select id="year" name="year" required>
           <option value="">--Please choose an option--</option>
           <option value="year1">Year 1</option>
           <option value="year2">Year 2</option>
@@ -94,11 +101,10 @@
           <option value="year7">Year 7</option>
         </select>
         <br>
-      </section>
-
-      <section class="hohdropdown">
+      </div>
+      <div class="hohdropdown">
         <label class="form__label labelname" for="hoh">Head of House: </label>
-        <select type="text" id="hoh" name="hoh">
+        <select id="hoh" name="hoh" required>
           <option value="">--Please choose an option--</option>
           <option value="hoh1">Professor McGonagall</option>
           <option value="hoh2">Professor Flitwick</option>
@@ -106,10 +112,11 @@
           <option value="hoh4">Professor Snape</option>
         </select>
         <br>
-      </section>
-
-      <section class="clubselection"> <label id="clubs" for="clubs">Please select the clubs that interest you. <span
-            class="choice">(Choose all that may apply.)</span></label><br>
+      </div>
+      <!--Checkbox selection for clubs-->
+      <div class="clubselection">
+        <label id="clubs">Please select the clubs that interest you. <span class="choice">(Choose all that
+            may apply.)</span></label><br>
         <input type="checkbox" id="option1" name="option1" value="option1">
         <label for="option1">Quidditch (Year 2 and up)</label><br>
         <input type="checkbox" id="option2" name="option2" value="option2">
@@ -130,9 +137,9 @@
         <label for="option9">S.P.E.W.</label><br>
         <input type="checkbox" id="option10" name="option10" value="option10">
         <label for="option10">Chocolate Frog Card-Swap Club</label><br>
-      </section>
-
-      <section class="hogsmedesignup">
+      </div>
+      <!--Hogsmede permission slip - dropdown selection-->
+      <div class="hogsmedesignup">
         <p class="hogsmede">The following part of the form is to indicate whether your child has permission to
           attend Hogsmede Village during weekends.
           Please read the following and select the aption that applies. <span id="slip">(For students in Year 3 or
@@ -140,22 +147,20 @@
         <p id="permissionliptext">After careful consideration, as the parent or guardian of the student named above,
           I
           <span class="permission">
-            <select type="text" id="permissionslip" name="permissionslip">
+            <select id="permissionslip" name="permissionslip" required>
               <option value="">--Please choose an option--</option>
               <option value="yes">do</option>
               <option value="no">do not</option>
             </select>
           </span> give permission to visit Hogsmede on weekends and take full responsibility for this decision.
         </p>
+      </div>
+      <!--Sign up Button-->
+      <section id="subutton">
+        <input id="signupbutton" type="submit" value="Sign Up">
       </section>
-
-      <section id="subutton" action="signupcomplete.html">
-        <input id="signupbutton" type="submit" value="Submit">
-      </section>
-
     </form>
   </section>
-
   <!-- Footer -->
   <footer id="socials">
     <ul class="social-networks">
@@ -177,6 +182,7 @@
       </li>
     </ul>
   </footer>
+  <!--Bootstrap script link-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
