@@ -69,19 +69,16 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sign Up Complete | Desktop | ![screenshot](documentation/lighthouse-signupcomplete-desktop.png) | No issues |
 
 ## User Story Testing
-🔴🔴
+
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
+| As a new site user, I would like to be able to navigate easily around the site, so that I can find what I need easily. This can be done clicking on the navigation links and the log will always take the user back to the homepage.  | ![screenshot](documentation/feature01.png) |
+| As a new site user, I would like to find out information about the school houses, so that I can interact with the site and prepare for the school year. Information about all houses can be found by clicking on the cards that rotate to show the information regarding the characteristics.| ![screenshot](documentation/feature02.png) |
+| As a new site user, I would like to be able to navigate to the school's various social links, so that I can keep u0p to date with all the annoucements and details regarding the school. The links at the bottom will send the user to various social media sites. | ![screenshot](documentation/feature03.png) |
+| As a new and returning site user, I would like to be able to navigate the site on a smaller device, so that I can access the information on a mobile phone. The toggle button allows the user to be able to do this intuitively and without having to make the font too small. | ![screenshot](documentation/feature04.png) |
+| As a new and returning site user, I would like to view the books that will be required to study at Hogwarts, so that I can then see what I'm looking for and what the books look like. A selection of the book covers can be scrolled through a carousel so that the user can view the book covers without too much scrolling and images overwhelming a space all at once. | ![screenshot](documentation/feature05.png) |
+| As a new and returning site user, I would like to fill in a form to be able to join clubs without spending time filling out a lengthy sign-up, so that I can easily see which clubs are available at the school.  | ![screenshot](documentation/feature06.png) |
+| As a returning site user, I should be able to navigate the site easily to find the sign-up form, so that I can come back and re-join clubs and fill in a permission slip - there is a clearly marked drop down menu to allow year 3 and above students to indicate permission for Hogsmede visits. | ![screenshot](documentation/feature07.png) |
 
 ## Bugs
 
@@ -139,21 +136,6 @@ Any remaining open issues can be tracked [here](https://github.com/D3lyth/milest
 | [Python `E501 line too long` (93 > 79 characters)](https://github.com/D3lyth/milestone-project-1/issues/5) | Open |
 
 ## Unfixed Bugs
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-Some examples:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
 
