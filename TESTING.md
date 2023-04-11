@@ -40,7 +40,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Safari | ![screenshot](documentation/browser-safari.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
 | Opera | ![screenshot](documentation/browser-opera.png) | Works as expected|
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
 
 ## Responsiveness
 
