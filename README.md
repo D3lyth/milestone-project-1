@@ -182,9 +182,7 @@ The website could be further expanded in many ways.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
@@ -249,7 +247,8 @@ Below is a list of some of the websites that I used to help completing the websi
 
 The colour-changing heading code used was code that I had used previously on another project (credited in table below):
 
-`h1 {animation: color-change 2s infinite;
+```css
+h1 {animation: color-change 2s infinite;
 }
 
 @keyframes color-change {
@@ -258,7 +257,8 @@ The colour-changing heading code used was code that I had used previously on ano
   50% { color: #e6ce57; }
   75% { color: #33ab3b; }
   100% { color: #b02328; }
-}`
+}
+```
 
 | Source | Location | Notes |
 | --- | --- | --- |
