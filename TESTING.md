@@ -78,36 +78,66 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## Bugs
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+I encountered a few bugs along the way - which I have outlined below and shown how it was fixed.
+
+- Toggle (Burger button) disappeared at 992px and links were not not visible either.
 
     ![screenshot](documentation/bug01.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I adjusted the media query for `.dropdown` to be `min-width: 993px` like below:
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+```css
+@media screen and (min-width: 993px) {
+  .dropdown {
+    display: none;
+  }
+}
+```
+
+- Text on certain parts of the pages (the book and author information on the caurosel and the book lists on the information page) were small and the font weight was thin, making it difficult to read.
+
+    - To fix this, I increased the font size to 18px. The font-weight was still a bit light, but changing the font weight wasn't yielding results. To overcome this I imported a the same font (Quicksand) with a greater weight (400) and this made the text bolder and more readable.
+
+- Carousel indicator buttons would not change colour when trying to restyle them in css. Due to the colour of the background, the indicator buttons were very hard to see.
+
+    - To fix this, I used Stack Overflow to find someone that had come across the same issue and followed one of their fixes, which was to use `invert` in css like below:
+
+    ```css
+    .carousel-control-prev {
+  left: 0;
+  filter: invert(1); }
+
+    ```css
+    .carousel-control-next {
+    right: 0;
+    filter: invert(1);
+    }
+    ```
+- Initially, the images within the flip cards were extending beyond the cards when changing the size of the screen.
 
     ![screenshot](documentation/bug02.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I used [PhotoPea](https://www.photopea.com) to edit the images to allow for more white space around the photos.
+    - I also changed the size of the cards to make sure that they did not change shape when checking for responsiveness using the css below
 
-**Fixed Bugs**
+    ```css
+    .flip-card {
+  max-width: 250px;
+  height: 250px;
+  margin: 0 auto;}
+  ```
 
-All previously closed/fixed bugs can be tracked [here](https://github.com/D3lyth/milestone-project-1/issues?q=is%3Aissue+is%3Aclosed).
+- The 'Return to Homepage' link on the signupcomplete page when hovered upon was causing some x-scrolling issues. This was due to me putting the transition and transform selectors on the sections rather than the link.
 
-| Bug | Status |
-| --- | --- |
-| [JS Uncaught ReferenceError: `foobar` is undefined/not defined](https://github.com/D3lyth/milestone-project-1/issues/1) | Closed |
-| [Python `'ModuleNotFoundError'` when trying to import module from imported package](https://github.com/D3lyth/milestone-project-1/issues/2) | Closed |
-| [Django `TemplateDoesNotExist` at /appname/path appname/template_name.html](https://github.com/D3lyth/milestone-project-1/issues/3) | Closed |
+    - To fix this, I changed the css to ensure that the transform and transition values were targeting the correct selectors.
 
-**Open Issues**
+- The homepage was experiencing some overflow-x scrolling issues. This was due to the hero image and the 'Headmaster's Address section spanning 100% of the view port but various padding and margin values were causing the sections and images to span beyond the viewport.
 
-Any remaining open issues can be tracked [here](https://github.com/D3lyth/milestone-project-1/issues).
+    - To fix this, I went through my css and used chrome developer tools to change some padding and margin values to auto or zero on various selectors, and this rectified the problem.
 
-| Bug | Status |
-| --- | --- |
-| [JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).](https://github.com/D3lyth/milestone-project-1/issues/4) | Open |
-| [Python `E501 line too long` (93 > 79 characters)](https://github.com/D3lyth/milestone-project-1/issues/5) | Open |
+- The performance indicator on Lighthouse was showing as amber with quite a few of my pages, and indicating that image loading was having an effect on the performance.
+
+    - To fix this, I used [TinyPNG](https://tinypng.com) to compress the images used on the site and this increased the Performance of the website on all pages.
 
 ## Unfixed Bugs
 
@@ -125,4 +155,4 @@ Any remaining open issues can be tracked [here](https://github.com/D3lyth/milest
 
     - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
 
-Other than the bugs mentiobned above, there are no other remaining bugs that I am aware of.
+Other than the bugs mentioned above, there are no other remaining bugs that I am aware of.
