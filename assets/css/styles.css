@@ -700,7 +700,7 @@ i:hover {
   margin-bottom: 3%;
   padding: 3%;
   border-radius: 5%;
-  border:#f6f18d solid 3px;
+  border: #f6f18d solid 3px;
   box-shadow: 0 0 .2rem #fff,
     0 0 .2rem #fff,
     0 0 2rem #f0f1cf,
@@ -830,13 +830,12 @@ section#subutton {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-  
+
 }
 
 #return {
   text-align: center;
   margin-bottom: 5%;
- /* transform: scale(1.2); */
 }
 
 #returnlink:hover {
