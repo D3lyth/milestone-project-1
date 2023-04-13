@@ -343,3 +343,4 @@ The following sites were used to edit and compress the images:
 - I would like to thank my husband (Rob), for believing in me, and allowing me to make this transition into software development and for testing out the website over and over again.
 - I would like to thank Nathan Parry, our cohort lead at Code Institute for his continuous encouragement, offers of help and assistance with troubleshooting various aspects of the project.
 - I would like to thank Iris Smok, our Cohort Facilitator for her continued support, the weekly stand-up updates and for keeping me on track.
+- I would like to thank my friend (Rebeca) for allowing me to send my site to her time and time again for her to test on non-apple devices.
