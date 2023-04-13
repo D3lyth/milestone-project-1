@@ -66,7 +66,7 @@ The house colours (used mainly on the flip cards on the 'home page') are as foll
 
 The fonts used for the website are listed below, and are all from Google Fonts.
 
-Allura is a Google Font that was chosen as the Logo font for the School with cursive being the fallback font.
+Freehand is a Google Font that was chosen as the Logo font for the School with cursive being the fallback font.
 
 Princess Sofia is a Google Font that was chosen as a cursive text to give the main headings and titles of the site an old-fashioned, handwritten look to tie in with the Harry Potter theme.
 
@@ -76,7 +76,7 @@ Some other parts of the text used the Google Font 'Roboto'. This is also a sans-
 
 The last Google Fonts used was 'Licorice' - this is seen on the book labels on the carousel.This font was chosen again for its handwritten look, with cursive being the fallback font.
 
-- The standard 'cursive' font was used for the font in the logo - although other fonts were trialled, the cursive font looked the most suitable.
+- [Freehand](https://fonts.google.com/specimen/Freehand) was used for the logo text and 'cursive' font was used as the fallback font.
 
 - [Princess Sofia](https://fonts.google.com/specimen/Princess+Sofia) was used for the primary headers and titles. The fallback font was 'cursive'.
 
@@ -299,11 +299,11 @@ h1 {animation: color-change 2s infinite;
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Code Institute](https://learn.codeinstitute.net) | css Love Running | The idea for using a hero image on the homepage |
 | [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/) | My project for the Certification task - Survey Form | css and keyframes for the colour-changing heading |
-| [Stack Overflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel/49017805#49017805) | Used to troubleshoot changing the colour of the arrows in a bootstrap carousel |
+| [Stack Overflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel/49017805#49017805) | Used to troubleshoot changing the colour of the arrows in a bootstrap carousel | Used forum answer to change my code to get the carousel buttons to be visible.|
 
 ### Media
 
