@@ -14,7 +14,26 @@ Here is a mock-up image of the Hogwarts website, using the "Am I Responsive" sit
 
 The design process started with some sketches of the website for mobile screens. Sketches were initially made on the Goodnotes App on the iPad.
 
-![screenshot](documentation/homepagesketch.jpeg) ![screenshot](documentation/infopage.png)  ![screenshot](documentation/signupsketch.jpeg)
+<details>
+<summary>Click here to view the Home Page sketch</summary>
+
+![screenshot](documentation/homepagesketch.jpeg)
+
+</details>
+
+<details>
+<summary>Click here to view the Info Page sketch</summary>
+
+![screenshot](documentation/infopage.png)
+
+</details>
+
+<details>
+<summary>Click here to view the Signup Page sketch</summary>
+
+![screenshot](documentation/signupsketch.jpeg)
+
+</details>
 
 ### Colour Scheme
 
@@ -99,27 +118,42 @@ After the initial sketch, and to follow best practice, [Balsamiq](https://balsam
 
 ### Home Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/home-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/home-tablet.png) |
-| Desktop | ![screenshot](documentation/wireframes/home-desktop.png) |
+<details>
+<summary>Click here to view the Home Page wireframes</summary>
+
+![screenshot](documentation/wireframes/home-desktop.png)
+
+![screenshot](documentation/wireframes/home-tablet.png)
+
+![screenshot](documentation/wireframes/home-mobile.png)
+
+</details>
 
 ### Information Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/info-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/info-tablet.png) |
-| Desktop | ![screenshot](documentation/wireframes/info-desktop.png) |
+<details>
+<summary>Click here to view the Information Page wireframes</summary>
+
+![screenshot](documentation/wireframes/info-mobile.png)
+
+![screenshot](documentation/wireframes/info-tablet.png)
+
+![screenshot](documentation/wireframes/info-desktop.png)
+
+</details>
 
 ### Clubs Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/clubs-mobile.png) |
-| Tablet | ![screenshot](documentation/wireframes/clubs-tablet.png) |
-| Desktop | ![screenshot](documentation/wireframes/clubs-desktop.png) |
+<details>
+<summary>Click here to view the Clubs Page wireframes</summary>
+
+![screenshot](documentation/wireframes/clubs-mobile.png)
+
+![screenshot](documentation/wireframes/clubs-tablet.png)
+
+![screenshot](documentation/wireframes/clubs-desktop.png)
+
+</details>
 
 ## Features
 
