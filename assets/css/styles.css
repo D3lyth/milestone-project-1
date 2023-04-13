@@ -18,10 +18,11 @@ body {
 .navbar-brand {
   float: left;
   color: goldenrod;
-  font-family: cursive;
+  font-family: 'Freehand', cursive;
   background-color: #333;
+  font-weight: light;
   margin: 0;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .navbar-brand:hover {
@@ -340,11 +341,11 @@ i:hover {
 
   .navbar-brand {
     float: none;
-    color: rgb(181, 146, 84);
-    font-family: cursive;
+    color: goldenrod;
+    font-family: 'Freehand', cursive;
     background-color: #333;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .container-fluid {
