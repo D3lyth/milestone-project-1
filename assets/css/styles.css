@@ -162,7 +162,6 @@ h1,
   color: #333;
   padding: 1rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
 }
 
 .signature {
@@ -532,7 +531,7 @@ i:hover {
   font-family: 'Quicksand', sans-serif;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .hogwartsbooksinfotexttop,
@@ -543,7 +542,7 @@ i:hover {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .hogwartsbooksinfo,
@@ -574,10 +573,11 @@ i:hover {
 
 .coretext {
   color: #333;
-  font-family: 'quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
   list-style: none;
+  font-weight: bold;
 }
 
 .first-yearbooks,
@@ -590,8 +590,9 @@ i:hover {
   color: #333;
   font-family: 'quicksand', sans-serif;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   list-style: none;
+  
 }
 
 .schoolyear {
@@ -631,7 +632,7 @@ i:hover {
   width: 100%;
   color: #333;
   padding: 0.5%;
-  font-size: 12px;
+  font-size: 16px;
   background-color: gold;
   border: solid 2px goldenrod;
   margin-bottom: 15%;
@@ -639,10 +640,11 @@ i:hover {
 
 .author {
   font-family: 'Licorice', cursive;
+  font-size: 20px;
 }
 
 .card-body {
-  width: 70%;
+  width: 75%;
   object-fit: contain;
   padding: 5px;
 }
