@@ -339,6 +339,10 @@ i:hover {
     display: none;
   }
 
+  span .fulltitle {
+    display: none;
+  }
+
   .navbar-brand {
     float: none;
     color: goldenrod;
@@ -592,7 +596,7 @@ i:hover {
   text-align: center;
   font-size: 18px;
   list-style: none;
-  
+  padding-left: 0;
 }
 
 .schoolyear {
