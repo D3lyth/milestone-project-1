@@ -146,7 +146,7 @@ I encountered a few bugs along the way - which I have outlined below and shown h
     .carousel-inner {
   overflow: visible;}
   ```
-  The fix was then tested due to the possibility of the carousel indicators vanishing when removing the overflow, but I tested the fix on the follwong browsers: chrome/edge/brave/opera/safari adn it was still visible. I also tested on Macbook, ThinkPad, iPad, iPhone 14, iPhone X and OnePlus Nord 2 and the scrolling issue has gone and the indicators still appear.
+  The fix was then tested due to the possibility of the carousel indicators vanishing when removing the overflow, but I tested the fix on the following browsers: chrome/edge/brave/opera/safari adn it was still visible. I also tested on Macbook, ThinkPad, iPad, iPhone 14, iPhone X and OnePlus Nord 2 and the scrolling issue has gone and the indicators still appear.
 
 ## Unfixed Bugs
 
