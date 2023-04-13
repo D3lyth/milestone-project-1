@@ -139,6 +139,15 @@ I encountered a few bugs along the way - which I have outlined below and shown h
 
     - To fix this, I used [TinyPNG](https://tinypng.com) to compress the images used on the site and this increased the Performance of the website on all pages.
 
+- The carousel when clicking on the prev/next toggles was causing a an overflow-x scrolling issue do to the carousel spanning the whole view port.
+
+    - To fix this I removed the following css and this rectified the problem.
+    ```css
+    .carousel-inner {
+  overflow: visible;}
+  ```
+  The fix was then tested due to the possibility of the carousel indicators vanishing when removing the overflow, but I tested the fix on the follwong browsers: chrome/edge/brave/opera/safari adn it was still visible. I also tested on Macbook, ThinkPad, iPad, iPhone 14, iPhone X and OnePlus Nord 2 and the scrolling issue has gone and the indicators still appear.
+
 ## Unfixed Bugs
 
 - On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
