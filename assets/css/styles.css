@@ -651,7 +651,7 @@ i:hover {
 }
 
 .carousel-inner {
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 /*Carousel Indicator Styling */
